@@ -1,0 +1,458 @@
+2023-03-04 00:54:50.116 *nis* Log session started.
+2023-03-04 00:54:50.116 *nis* 269c RDTSC instruction NOT present.
+2023-03-04 00:54:50.226 *nis* 269c UpdateDDBObjectives() : Start.
+2023-03-04 00:54:50.226 *nis* 269c UpdateDDBObjectives() : End(2).
+2023-03-04 00:54:50.248 *nis* 269c WinMain() - Phase #00 (application start) - 00:54:50 - 307.85
+2023-03-04 00:54:50.440 *nis* 269c Qt Warning: Attribute Qt::AA_ShareOpenGLContexts must be set before QCoreApplication is created.
+2023-03-04 00:54:50.440 *nis* 269c ParseCommandLine() : C:\Program Files\NIS-Elements\nis_ar.exe
+2023-03-04 00:54:50.440 *nis* 269c CLxSchedulerSupport::GetRegistryValueString read SocketName: 
+2023-03-04 00:54:50.440 *nis* 269c ENTERING 'CLxRTTI::loadCatalog'
+2023-03-04 00:54:50.464 *nis* 269c LEAVING  'CLxRTTI::loadCatalog' 24.0ms spent inside
+2023-03-04 00:54:50.464 *nis* 269c ENTERING 'CLxRTTI::updateCatalog'
+2023-03-04 00:54:50.544 *nis* 269c ENTERING 'CLxRTTI::saveCatalog'
+2023-03-04 00:54:50.544 *nis* 269c Saving RTTI cache
+2023-03-04 00:54:50.551 *nis* 269c LEAVING  'CLxRTTI::saveCatalog' 7.0ms spent inside
+2023-03-04 00:54:50.551 *nis* 269c LEAVING  'CLxRTTI::updateCatalog' 87.0ms spent inside
+2023-03-04 00:54:50.558 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_serializer_xml.dll") : OK
+2023-03-04 00:54:50.559 *nis* 269c IPCServer: Main thread awaiting client connection on \\.\pipe\NIS_ELEMENTS_ARE_RUNNING
+2023-03-04 00:54:50.562 *nis* 269c BIOS release date: 02/02/2022
+2023-03-04 00:54:50.562 *nis* 269c BIOS version: P61 v02.78
+2023-03-04 00:54:50.562 *nis* 269c System Manufacturer: HP
+2023-03-04 00:54:50.562 *nis* 269c System Product Name: HP Z4 G4 Workstation
+2023-03-04 00:54:50.562 *nis* 269c Operating System Name: Windows 10 Pro for Workstations
+2023-03-04 00:54:50.562 *nis* 269c Operating System Version: 10.0.19041.2364
+2023-03-04 00:54:50.562 *nis* 269c Cstates disable: TRUE
+2023-03-04 00:54:50.563 *nis* 3750 Qt Warning: QObject::startTimer: Timers can only be used with threads started with QThread
+2023-03-04 00:54:50.563 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_docuset.dll") : OK
+2023-03-04 00:54:50.573 *nis* 269c GetSid succeded, user: Confocal, SID: S-1-5-21-156716595-2731499287-1200104426-1001
+2023-03-04 00:54:50.579 *nis* 269c Windows user: Confocal
+2023-03-04 00:54:50.588 *nis* 269c SearchAndLoadVendorModules: Application path: C:\Program Files\NIS-Elements\nis_ni?_*.dll
+2023-03-04 00:54:50.588 *nis* 269c VendorModuleAdd: nis_nii_assay_livedead.dll
+2023-03-04 00:54:51.097 *nis* 269c VendorModuleAdd: nis_nii_assay_NiiFilePart_TaskAcquireByName_Task.dll
+2023-03-04 00:54:51.108 *nis* 269c VendorModulesGeneralPlugin: Initializing plugin GeneralPlugin for version 5.3005 b1559
+2023-03-04 00:54:51.108 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_system.dll") : OK
+2023-03-04 00:54:51.115 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_serializer_reg.dll") : OK
+2023-03-04 00:54:51.116 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_support_gpu.dll") : OK
+2023-03-04 00:54:51.409 *nis* 269c Qt Debug: CL PERFORMANCE: device (Quadro RTX 5000), SP (3.7), DP (134.1)
+2023-03-04 00:54:51.466 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_filters_v2.dll") : OK
+2023-03-04 00:54:51.486 *nis* 269c CExternalGameDeviceManager::RegisterPluginDeviceType, joystick registered for plugin: Filters - joystick
+2023-03-04 00:54:51.486 *nis* 269c CLxPluginManager::LoadModules("CLxModuleFilters2") : OK
+2023-03-04 00:54:51.491 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_storm_new.dll") : OK
+2023-03-04 00:54:51.491 *nis* 269c CLxPluginManager::LoadModules("CLxModuleStormNew") : OK
+2023-03-04 00:54:51.506 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_grainsize.dll") : OK
+2023-03-04 00:54:51.507 *nis* 269c CLxPluginManager::LoadModules("CLxModuleGrainSize") : OK
+2023-03-04 00:54:51.515 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_Observation.dll") : OK
+2023-03-04 00:54:51.515 *nis* 269c CLxModuleObservation::CLxModuleObservation
+2023-03-04 00:54:51.515 *nis* 269c CLxPluginManager::LoadModules("CLxModuleObservation") : OK
+2023-03-04 00:54:51.524 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_layers.dll") : OK
+2023-03-04 00:54:51.525 *nis* 269c CLxPluginManager::LoadModules("CLxModuleLayers") : OK
+2023-03-04 00:54:51.536 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_report.dll") : OK
+2023-03-04 00:54:51.536 *nis* 269c CLxPluginManager::LoadModules("CLxPluginReport") : OK
+2023-03-04 00:54:51.546 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_sim.dll") : OK
+2023-03-04 00:54:51.643 *nis* 269c CLxPluginManager::LoadModules("CLxModuleSim") : OK
+2023-03-04 00:54:51.654 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_fret.dll") : OK
+2023-03-04 00:54:51.654 *nis* 269c CLxPluginManager::LoadModules("CLxModuleFRET") : OK
+2023-03-04 00:54:51.666 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_01.dll") : OK
+2023-03-04 00:54:51.666 *nis* 269c CLxPluginManager::LoadModules("CLxModule01") : OK
+2023-03-04 00:54:51.674 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_alveole_leonardo.dll") : OK
+2023-03-04 00:54:51.674 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAlveoleLeonardo") : OK
+2023-03-04 00:54:51.685 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_cellproliferation.dll") : OK
+2023-03-04 00:54:51.685 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayCellProliferation") : OK
+2023-03-04 00:54:51.699 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga.dll") : OK
+2023-03-04 00:54:51.700 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayGa") : OK
+2023-03-04 00:54:51.732 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga3.dll") : OK
+2023-03-04 00:54:51.736 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayGa3") : OK
+2023-03-04 00:54:51.752 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga_rgb.dll") : OK
+2023-03-04 00:54:51.752 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayGaRgb") : OK
+2023-03-04 00:54:51.764 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_motilitytracking.dll") : OK
+2023-03-04 00:54:51.764 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayMotilityTracking") : OK
+2023-03-04 00:54:51.773 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_oc.dll") : OK
+2023-03-04 00:54:51.773 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayOc") : OK
+2023-03-04 00:54:51.783 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_outproc.dll") : OK
+2023-03-04 00:54:51.783 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayOutProc") : OK
+2023-03-04 00:54:51.792 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_qintensity.dll") : OK
+2023-03-04 00:54:51.792 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayQIntensity") : OK
+2023-03-04 00:54:51.802 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_spt.dll") : OK
+2023-03-04 00:54:51.803 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssaySingleParticleTracking") : OK
+2023-03-04 00:54:51.811 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_woundhealing.dll") : OK
+2023-03-04 00:54:51.811 *nis* 269c CLxPluginManager::LoadModules("CLxModuleAssayWoundHealing") : OK
+2023-03-04 00:54:51.823 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_welding.dll") : OK
+2023-03-04 00:54:51.823 *nis* 269c CLxPluginManager::LoadModules("CLxModuleWelding") : OK
+2023-03-04 00:54:51.835 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_castiron.dll") : OK
+2023-03-04 00:54:51.835 *nis* 269c CLxPluginManager::LoadModules("CLxModuleCastIron") : OK
+2023-03-04 00:54:51.847 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_concrete.dll") : OK
+2023-03-04 00:54:51.848 *nis* 269c CExternalGameDeviceManager::RegisterPluginDeviceType, joystick registered for plugin: Concrete - joystick
+2023-03-04 00:54:51.848 *nis* 269c CLxPluginManager::LoadModules("CLxModuleConcrete") : OK
+2023-03-04 00:54:51.858 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_optogenetics.dll") : OK
+2023-03-04 00:54:51.858 *nis* 269c CLxPluginManager::LoadModules("CLxModuleOptogenetics") : OK
+2023-03-04 00:54:51.871 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_edf.dll") : OK
+2023-03-04 00:54:51.871 *nis* 269c CLxPluginManager::LoadModules("CLxModuleEDF") : OK
+2023-03-04 00:54:51.900 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_denoise.dll") : OK
+2023-03-04 00:54:51.903 *nis* 269c CLxPluginManager::LoadModules("CLxModuleDenoise") : OK
+2023-03-04 00:54:51.967 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_confocal_new.dll") : OK
+2023-03-04 00:54:51.971 *nis* 269c CLxPluginManager::LoadModules("CLxModuleConfocalNew") : OK
+2023-03-04 00:54:51.984 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_deconv.dll") : OK
+2023-03-04 00:54:51.986 *nis* 269c CLxPluginManager::LoadModules("CLxModuleDeconv") : OK
+2023-03-04 00:54:51.000 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_deeplearning.dll") : OK
+2023-03-04 00:54:51.001 *nis* 269c CLxPluginManager::LoadModules("CLxModuleDeepLearning") : OK
+2023-03-04 00:54:51.008 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_LiveSR.dll") : OK
+2023-03-04 00:54:51.008 *nis* 269c CLxPluginManager::LoadModules("CLxModuleLiveSR") : OK
+2023-03-04 00:54:52.076 *nis* 269c License ID 2CC54E41 is used.
+2023-03-04 00:54:52.416 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleFilters2' not allowed by license.
+2023-03-04 00:54:52.423 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleGrainSize' not allowed by license.
+2023-03-04 00:54:52.425 *nis* 269c CLxModuleObservation::~CLxModuleObservation
+2023-03-04 00:54:52.425 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleObservation' not allowed by license.
+2023-03-04 00:54:52.427 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleLayers' not allowed by license.
+2023-03-04 00:54:52.430 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleFRET' not allowed by license.
+2023-03-04 00:54:52.437 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleAssayGaRgb' not allowed by license.
+2023-03-04 00:54:52.442 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleAssaySingleParticleTracking' not allowed by license.
+2023-03-04 00:54:52.445 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleWelding' not allowed by license.
+2023-03-04 00:54:52.447 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleCastIron' not allowed by license.
+2023-03-04 00:54:52.449 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleConcrete' not allowed by license.
+2023-03-04 00:54:52.451 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleOptogenetics' not allowed by license.
+2023-03-04 00:54:52.453 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleEDF' not allowed by license.
+2023-03-04 00:54:52.460 *nis* 269c CLxPluginManager::LoadModules() - module 'CLxModuleLiveSR' not allowed by license.
+2023-03-04 00:54:52.475 *nis* 269c CLxLocale::SetLangID(1033) : English
+2023-03-04 00:54:52.710 *nis* 269c SetLuciaVersion() : NIS-Elements AR; 5.30.05 (Build 1559) 64 bit
+2023-03-04 00:54:52.727 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_reportobjects.dll") : OK
+2023-03-04 00:54:52.733 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_metalo_support.dll") : OK
+2023-03-04 00:54:52.951 *nis* 269c Font Zoom: 1.00
+2023-03-04 00:54:52.951 *nis* 269c Font Zoom: 1.00
+2023-03-04 00:54:52.983 *nis* 269c Init color scheme: 2; Flat: 1
+2023-03-04 00:54:53.031 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformatmanager.dll") : OK
+2023-03-04 00:54:53.045 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_tif.dll") : OK
+2023-03-04 00:54:53.045 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatLSM") : OK
+2023-03-04 00:54:53.045 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatOMETIF") : Failed GetID(...)
+2023-03-04 00:54:53.052 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_lim.dll") : OK
+2023-03-04 00:54:53.053 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatLIM") : OK
+2023-03-04 00:54:53.062 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_nd2.dll") : OK
+2023-03-04 00:54:53.062 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatND2") : OK
+2023-03-04 00:54:53.080 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ndp.dll") : OK
+2023-03-04 00:54:53.080 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatNDP") : OK
+2023-03-04 00:54:53.087 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_nef.dll") : OK
+2023-03-04 00:54:53.165 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatNEF") : OK
+2023-03-04 00:54:53.174 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_avi.dll") : OK
+2023-03-04 00:54:53.174 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatAVI") : OK
+2023-03-04 00:54:53.188 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_mov.dll") : OK
+2023-03-04 00:54:53.188 *nis* 269c WRAP:CLxWin3264Wrap::Connect - trying to connect ...
+2023-03-04 00:54:53.369 *nis* 269c WRAP:CLxWin3264Wrap::Connect - successfully connected
+2023-03-04 00:54:53.390 *nis* 269c WRAP:CLxWin3264Wrap::Disconnect - successfully disconnected
+2023-03-04 00:54:53.390 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatMov") : Failed GetID(...)
+2023-03-04 00:54:53.405 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_mp4.dll") : OK
+2023-03-04 00:54:53.406 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatMP4") : OK
+2023-03-04 00:54:53.406 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imagefilecontainer.dll") : OK
+2023-03-04 00:54:53.406 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatContainer") : Failed GetID(...)
+2023-03-04 00:54:53.424 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_jp2.dll") : OK
+2023-03-04 00:54:53.425 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatND") : OK
+2023-03-04 00:54:53.425 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJP2") : OK
+2023-03-04 00:54:53.493 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ometiff.dll") : OK
+2023-03-04 00:54:53.493 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatOMETIFF") : OK
+2023-03-04 00:54:53.494 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatTIF") : OK
+2023-03-04 00:54:53.525 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_json.dll") : OK
+2023-03-04 00:54:53.525 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJson") : OK
+2023-03-04 00:54:53.535 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_jpg2.dll") : OK
+2023-03-04 00:54:53.535 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJPG") : OK
+2023-03-04 00:54:53.564 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_lead.dll") : OK
+2023-03-04 00:54:53.564 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatGIF") : OK
+2023-03-04 00:54:53.565 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatBMP") : OK
+2023-03-04 00:54:53.572 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_PNG.dll") : OK
+2023-03-04 00:54:53.572 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatPNG") : OK
+2023-03-04 00:54:53.572 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatPSD") : OK
+2023-03-04 00:54:53.579 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ics.dll") : OK
+2023-03-04 00:54:53.579 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatICS") : OK
+2023-03-04 00:54:53.586 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_clipboard.dll") : OK
+2023-03-04 00:54:53.586 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatClipboard") : OK
+2023-03-04 00:54:53.586 *nis* 269c CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatDIB") : OK
+2023-03-04 00:54:53.587 *nis* 269c Startup message : Checking user rights...
+2023-03-04 00:54:53.589 *nis* 269c WinMain() - Phase #01 (before SelectGrabber()) - 00:54:53 - 3341.09
+2023-03-04 00:54:53.589 *nis* 269c Startup message : Restoring Database of Devices...
+2023-03-04 00:54:53.590 *nis* 269c Startup message : Initializing Device Database...
+2023-03-04 00:54:53.605 *nis* 269c Device Database connection opened: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-04 00:54:53.608 *nis* 269c Device Database version 46 checked successfully
+2023-03-04 00:54:53.610 *nis* 269c Current system User ID is 1
+2023-03-04 00:54:53.610 *nis* 269c Current system HW Config ID is 1
+2023-03-04 00:54:53.613 *nis* 269c Current system Lightpath ID is 3
+2023-03-04 00:54:53.626 *nis* 269c DeviceDBAppHelper::GetHWConfigCameraString(): End - success...
+2023-03-04 00:54:53.630 *nis* 269c Startup message : Selecting Setup and Hardware Configuration...
+2023-03-04 00:54:53.630 *nis* 1d9c _DMv2_ CLxDeviceManagerv2::Init() - begin
+2023-03-04 00:54:53.630 *nis* 1d9c _DMv2_ CLxDeviceManagerv2::Init() - #3
+2023-03-04 00:54:53.631 *nis* 269c LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_grabbermanager01.dll") : OK
+2023-03-04 00:54:53.631 *nis* 1d9c _DMv2_ CLxOpticalPathHWUnitsCatalog::LoadCatalog() - begin
+2023-03-04 00:54:53.632 *nis* 269c CLxGrabberManager01: Driver version OK. (CLxGrabberDriverGeneral, C:\Program Files\NIS-Elements\v6_gnr_grabbermanager01.dll)
+2023-03-04 00:54:53.632 *nis* 269c CLxGrabberManager01: Driver version OK. (CLxGrabberDriverA1New, C:\Program Files\NIS-Elements\g5_plugin_confocal_new.dll)
+2023-03-04 00:54:53.632 *nis* 269c CLxGrabberManager01: Driver version OK. (CLxGrabberDriverAndor, C:\Program Files\NIS-Elements\v6_w32_grabber_andor.dll)
+2023-03-04 00:54:53.632 *nis* 269c CLxGrabberManager01: Driver version OK. (CLxGrabberDriverImgsrc, C:\Program Files\NIS-Elements\v6_w32_grabber_imagingsource.dll)
+2023-03-04 00:54:53.646 *nis* 269c CLxGrabberManager01::GrabberDriverBan("CLxGrabberDriverImgsrc")
+2023-03-04 00:54:53.647 *nis* 269c _DMv2_ CLxDeviceManagerv2::ShowSetupAndHWConfigSelectionDialog()
+2023-03-04 00:54:53.703 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): begin
+2023-03-04 00:54:53.704 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogModel(): Creating model - begin
+2023-03-04 00:54:53.704 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::Update(): begin
+2023-03-04 00:54:53.704 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::clear(): Resetting model - begin: row count = 0.
+2023-03-04 00:54:53.704 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::clear(): Resetting model - end: row count = 0.
+2023-03-04 00:54:53.723 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::Update(): End - success...
+2023-03-04 00:54:53.723 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogModel(): Creating model - end
+2023-03-04 00:54:53.723 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogProperties(): Creating dialog properties.
+2023-03-04 00:54:53.723 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialog::SetContextProperty read NISShutdownSuccessful: 1
+2023-03-04 00:54:53.723 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogProperties::GetModel(): Model valid: 1
+2023-03-04 00:54:53.982 *nis* 269c Qt Debug: Gui Zoom Changed to: 1
+2023-03-04 00:54:53.989 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogProperties::GetModel(): Model valid: 1
+2023-03-04 00:54:54.463 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index - begin
+2023-03-04 00:54:54.463 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index to - 0
+2023-03-04 00:54:54.463 *nis* 269c Qt Debug: Current index: 0
+2023-03-04 00:54:54.463 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index to - 1
+2023-03-04 00:54:54.466 *nis* 269c Qt Debug: Current index: 1
+2023-03-04 00:54:54.466 *nis* 269c _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): SetupUi - end
+2023-03-04 00:54:56.015 *nis* 1d9c _DMv2_ CLxOpticalPathHWUnitsCatalog::LoadCatalog() - end
+2023-03-04 00:54:56.015 *nis* 1d9c _DMv2_ CLxDeviceManagerv2::Init() - end
+2023-03-04 00:55:28.917 *nis* 269c Setting current system HW Config ID to 1
+2023-03-04 00:55:28.919 *nis* 269c DeviceDBAppHelper::GetHWConfigCameraString(): End - success...
+2023-03-04 00:55:28.920 *nis* 269c DeviceDBAppHelper::GetHWConfigCameraString(): End - success...
+2023-03-04 00:55:28.920 *nis* 269c Startup message : Running Nikon Ti: A1 - A1...
+2023-03-04 00:55:28.921 *nis* 269c Selected hardware configuration with GUID = {68e219b6-b601-4e2f-8463-37b6af786e9e} (Hardware configuration name = A1 - A1, Setup name = Nikon Ti
+2023-03-04 00:55:28.931 *nis* 269c CLxGrabberManager01::GrabberDriverCreate("CLxGrabberDriverA1New") : OK
+2023-03-04 00:55:28.931 *nis* 269c CLxGenProvider_Low : RecordConfocalMetaDataInNoDelay is not active (optimized for speed)
+2023-03-04 00:55:28.931 *nis* 269c CLxGenProvider_Low : DoNotRecordConfocalMetaDataInHWSequencer is not active (not good for fast framerate)
+2023-03-04 00:55:28.931 *nis* 269c CLxGenProvider_Low : RecordConfocalMetaDataFPSLimit is 31
+2023-03-04 00:55:28.932 *nis* 269c Startup message : Initializing camera...
+2023-03-04 00:55:28.933 *nis* 269c 0 = CLxGrabberCoreA1New::set_state(-1) { old was -1 }
+2023-03-04 00:55:29.088 *nis* 269c Startup message : Denoise.ai Initialization...
+2023-03-04 00:55:29.232 *nis* 3748 Qt Debug: Cuda::Device::Device , id:  0
+2023-03-04 00:55:29.329 *nis* 3748 Qt Debug: Cuda::Device::Device , name:  Quadro RTX 5000
+2023-03-04 00:55:29.329 *nis* 3748 Qt Debug: Cuda::Device::Device , memory:  17179541504
+2023-03-04 00:55:29.329 *nis* 3748 Qt Debug: LiveDeepDenoiser::init  - initializing
+2023-03-04 00:55:29.330 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:29.330 *nis* 3748 Qt Debug: MxNet::NetworkManager::freeNetworks
+2023-03-04 00:55:29.330 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::Executor.
+2023-03-04 00:55:29.330 *nis* 3748 Qt Debug: MxNet::Executor::Executor  - gpu:  true , autotune:  false
+2023-03-04 00:55:29.330 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::start.
+2023-03-04 00:55:29.330 *nis* 3748 Qt Debug: MxNet::Executor::start
+2023-03-04 00:55:29.331 *nis* 3748 Qt Debug: MxNet::Client::Client
+2023-03-04 00:55:29.333 *nis* 28b8 Qt Debug: MxNet::Client::start  - serverName:  "MxNet_Server_1737016560"
+2023-03-04 00:55:29.351 *nis* 28b8 Qt Debug: MxNet::Client::started
+2023-03-04 00:55:29.445 *nis* 28b8 Qt Debug: MxNet::Client::started  -  "listening on MxNet_Server_1737016560 in 479ms"
+2023-03-04 00:55:29.445 *nis* 28b8 Qt Debug: MxNet::Client::connected
+2023-03-04 00:55:29.601 *nis* 269c Startup message : Denoise.ai Initialization...-
+2023-03-04 00:55:30.116 *nis* 269c Startup message : Denoise.ai Initialization...\
+2023-03-04 00:55:30.632 *nis* 269c Startup message : Denoise.ai Initialization...|
+2023-03-04 00:55:31.147 *nis* 269c Startup message : Denoise.ai Initialization.../
+2023-03-04 00:55:31.262 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::start, 1931.592ms spent inside.
+2023-03-04 00:55:31.262 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::Executor, 1931.751ms spent inside.
+2023-03-04 00:55:31.325 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::initDenoiser.
+2023-03-04 00:55:31.325 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - gpu  true , autotune  false
+2023-03-04 00:55:31.325 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - trying number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:31.325 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - trying tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:31.325 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - estimate  281542656  + margin  140771328  <=  16059039232
+2023-03-04 00:55:31.663 *nis* 269c Startup message : Denoise.ai Initialization...-
+2023-03-04 00:55:32.178 *nis* 269c Startup message : Denoise.ai Initialization...\
+2023-03-04 00:55:32.694 *nis* 269c Startup message : Denoise.ai Initialization...|
+2023-03-04 00:55:33.209 *nis* 269c Startup message : Denoise.ai Initialization.../
+2023-03-04 00:55:33.534 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - requirement  281018368  + margin  140509184  <=  16059039232
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - shared memory  20971520
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::initDenoiser, 2209.759ms spent inside.
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 256 ,  256 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.535 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.585 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 50.512ms spent inside.
+2023-03-04 00:55:33.588 *nis* 3748 Qt Debug: LiveDeepDenoiser::init  - measuring performance
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 256 ,  256 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.589 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 28.504ms spent inside.
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 256 ,  256 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.617 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 28.365ms spent inside.
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 256 ,  256 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.646 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 28.300ms spent inside.
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 256 ,  256 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 256 ,  256 ,  1 )
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.674 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.702 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 28.176ms spent inside.
+2023-03-04 00:55:33.703 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.704 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::freeResource.
+2023-03-04 00:55:33.706 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::freeResource, 2.222ms spent inside.
+2023-03-04 00:55:33.706 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::initDenoiser.
+2023-03-04 00:55:33.706 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.706 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - trying number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.706 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - trying tile size ( 512 ,  512 ,  1 )
+2023-03-04 00:55:33.706 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - estimate  1126170624  + margin  563085312  <=  16059039232
+2023-03-04 00:55:33.725 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - requirement  1126170624  + margin  285192832  <=  16059039232
+2023-03-04 00:55:33.725 *nis* 269c Startup message : Denoise.ai Initialization...-
+2023-03-04 00:55:33.725 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - tile size ( 512 ,  512 ,  1 )
+2023-03-04 00:55:33.725 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.725 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - shared memory  83886080
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::initDenoiser, 20.030ms spent inside.
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 512 ,  512 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 512 ,  512 ,  1 )
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.726 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.833 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 107.453ms spent inside.
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 512 ,  512 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 512 ,  512 ,  1 )
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.835 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 78.997ms spent inside.
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 512 ,  512 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 512 ,  512 ,  1 )
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.914 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:33.992 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 78.665ms spent inside.
+2023-03-04 00:55:33.992 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 512 ,  512 ,  1 ), components  5 , num  1
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 512 ,  512 ,  1 )
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:33.993 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:34.071 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 78.572ms spent inside.
+2023-03-04 00:55:34.073 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:34.073 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::freeResource.
+2023-03-04 00:55:34.076 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::freeResource, 2.728ms spent inside.
+2023-03-04 00:55:34.076 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::initDenoiser.
+2023-03-04 00:55:34.076 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - gpu  true , autotune  false
+2023-03-04 00:55:34.076 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - trying number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:34.076 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - trying tile size ( 1024 ,  1024 ,  1 )
+2023-03-04 00:55:34.076 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - estimate  4504682496  + margin  781542656  <=  16059039232
+2023-03-04 00:55:34.095 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - requirement  4506779648  + margin  390836864  <=  16059039232
+2023-03-04 00:55:34.095 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - tile size ( 1024 ,  1024 ,  1 )
+2023-03-04 00:55:34.095 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:34.095 *nis* 3748 Qt Debug: MxNet::Executor::initNetworkLow  - shared memory  335544320
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::initDenoiser, 21.767ms spent inside.
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 1024 ,  1024 ,  1 ), components  5 , num  1
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 1024 ,  1024 ,  1 )
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:34.098 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:34.240 *nis* 269c Startup message : Denoise.ai Initialization...\
+2023-03-04 00:55:34.442 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 344.379ms spent inside.
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 1024 ,  1024 ,  1 ), components  5 , num  1
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 1024 ,  1024 ,  1 )
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:34.444 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 291.162ms spent inside.
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 1024 ,  1024 ,  1 ), components  5 , num  1
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 1024 ,  1024 ,  1 )
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:34.735 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:34.756 *nis* 269c Startup message : Denoise.ai Initialization...|
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 291.312ms spent inside.
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: ENTERING MxNet::Executor::denoise.
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - gpu  true , autotune  false
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - image size ( 1024 ,  1024 ,  1 ), components  5 , num  1
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - tile size ( 1024 ,  1024 ,  1 )
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - number of tiles ( 1 ,  1 ,  1 )
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - overlap ( 32 ,  32 ,  0 )
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - total number of tiles  1 , blend  false
+2023-03-04 00:55:35.026 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - num tiles per request  1
+2023-03-04 00:55:35.027 *nis* 3748 Qt Debug: MxNet::Executor::networkForwardLow  - processing tiles  0 - 1
+2023-03-04 00:55:35.271 *nis* 269c Startup message : Denoise.ai Initialization.../
+2023-03-04 00:55:35.318 *nis* 3748 Qt Debug: LEAVING MxNet::Executor::denoise, 291.802ms spent inside.
+2023-03-04 00:55:35.320 *nis* 269c Startup message : Denoise.ai Initialization...-
+2023-03-04 00:55:35.321 *nis* 269c Startup message : Initializing camera...
+2023-03-04 00:55:35.789 *nis* 269c Pinhole_Initialization() : 60.0, 1.2 = 0
+2023-03-04 00:55:35.794 *nis* 269c A1_Open(), (A1 Grabber)
+2023-03-04 00:56:02.770 *nis* 269c A1_Open() -> returned: -9, ErrMsg = " Error catched! A1ConfocalUnit->Initialize() failed. ErrCode[0x8004a00a]
+[IA1ConfocalUnit::Initialize,Controller connection error. ] 
+"
+2023-03-04 00:56:02.771 *nis* 269c Threaded_A1_StopThreads_DoNotCloseA1() 72831.20
+2023-03-04 00:56:02.772 *nis* 269c Threaded_A1_StopThreads_DoNotCloseA1() -> returned: 0 (call time: 0.80)
+2023-03-04 00:56:11.058 *nis* 269c DMApi::Refresh() - begin
+2023-03-04 00:56:11.062 *nis* 269c SIM allowed
+2023-03-04 00:56:11.063 *nis* 269c SIM Offline not allowed
+2023-03-04 00:56:11.065 *nis* 269c LX_MessageBox lpText = Nikon Confocal camera driver could not open camera device NikonA1Grabber! lpCaption = Error
+2023-03-04 00:56:16.280 *nis* 269c LX_MessageBox return value = 2
+2023-03-04 00:56:16.301 *nis* 269c Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-04 00:56:16.301 *nis* 269c Qt Debug: Cuda::Device::~Device
+2023-03-04 00:56:16.322 *nis* 269c Device Database connection closed: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-04 00:56:16.323 *nis* 269c Qt Debug: MxNet::NetworkManager::freeNetworks
+2023-03-04 00:56:16.323 *nis* 269c Qt Debug: ENTERING MxNet::Executor::freeResource.
+2023-03-04 00:56:16.329 *nis* 269c Qt Debug: LEAVING MxNet::Executor::freeResource, 5.692ms spent inside.
+2023-03-04 00:56:16.329 *nis* 269c Qt Debug: MxNet::Executor::~Executor
+2023-03-04 00:56:16.329 *nis* 269c Qt Debug: ENTERING MxNet::Executor::terminate.
+2023-03-04 00:56:16.329 *nis* 269c Qt Debug: MxNet::Executor::terminate
+2023-03-04 00:56:16.329 *nis* 28b8 Qt Debug: MxNet::Client::terminate
+2023-03-04 00:56:16.329 *nis* 28b8 Qt Debug: MxNet::Client::disconnected
+2023-03-04 00:56:16.387 *nis* 269c Qt Debug: MxNet::Client::waitForTerminated  - cannot terminate process gracefully
+2023-03-04 00:56:16.387 *nis* 28b8 Qt Debug: MxNet::Client::~Client
+2023-03-04 00:56:16.387 *nis* 28b8 Qt Warning: QProcess: Destroyed while process ("C:\\Program Files\\NIS-Elements\\v6_gnr_mxnet_process.exe") is still running.
+2023-03-04 00:56:16.553 *nis* 269c Qt Debug: LEAVING MxNet::Executor::terminate, 223.634ms spent inside.
+2023-03-04 00:56:16.553 *nis* 269c App modules logout start
+2023-03-04 00:56:16.556 *nis* 269c App modules logout finish
+2023-03-04 00:56:16.557 *nis* 269c Application result: FAILED - SETUP AND HW CONFIGURATION SELECTION USER
+2023-03-04 00:56:16.557 *nis* 269c Qt Warning: QObject::killTimer: Timers cannot be stopped from another thread
+2023-03-04 00:56:16.679 *nis* 269c WRAP:CLxWin3264Wrap::Disconnect - successfully disconnected

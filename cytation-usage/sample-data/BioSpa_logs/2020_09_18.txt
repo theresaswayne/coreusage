@@ -1,0 +1,58 @@
+37	Fri 00:00:07	Sys:Chart moved to the second day on the schedule during gap in processing.
+38	Fri 01:01:29	Sys:Plate 3 has begun reading/imaging number: 4; Protocol: Migration 12 well BioSpa Lucia.prt
+39	Fri 01:01:49	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+40	Fri 01:05:40	Sys:Plate 3 has completed reading/imaging number: 4.
+41	Fri 01:14:37	Sys:Plate 5 has begun reading/imaging number: 4; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+42	Fri 01:14:58	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+43	Fri 01:18:48	Sys:Plate 5 has completed reading/imaging number: 4.
+44	Fri 03:01:29	Sys:Plate 3 has begun reading/imaging number: 5; Protocol: Migration 12 well BioSpa Lucia.prt
+45	Fri 03:01:50	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+46	Fri 03:05:39	Sys:Plate 3 has completed reading/imaging number: 5.
+47	Fri 03:14:38	Sys:Plate 5 has begun reading/imaging number: 5; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+48	Fri 03:14:58	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+49	Fri 03:18:49	Sys:Plate 5 has completed reading/imaging number: 5.
+50	Fri 05:01:29	Sys:Plate 3 has begun reading/imaging number: 6; Protocol: Migration 12 well BioSpa Lucia.prt
+51	Fri 05:01:50	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+52	Fri 05:05:41	Sys:Plate 3 has completed reading/imaging number: 6.
+53	Fri 05:14:37	Sys:Plate 5 has begun reading/imaging number: 6; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+54	Fri 05:14:58	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+55	Fri 05:18:48	Sys:Plate 5 has completed reading/imaging number: 6.
+56	Fri 07:01:30	Sys:Plate 3 has begun reading/imaging number: 7; Protocol: Migration 12 well BioSpa Lucia.prt
+57	Fri 07:01:51	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+58	Fri 07:05:42	Sys:Plate 3 has completed reading/imaging number: 7.
+59	Fri 07:14:37	Sys:Plate 5 has begun reading/imaging number: 7; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+60	Fri 07:14:58	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+61	Fri 07:18:48	Sys:Plate 5 has completed reading/imaging number: 7.
+62	Fri 09:01:30	Sys:Plate 3 has begun reading/imaging number: 8; Protocol: Migration 12 well BioSpa Lucia.prt
+63	Fri 09:01:51	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+64	Fri 09:05:42	Sys:Plate 3 has completed reading/imaging number: 8.
+65	Fri 09:14:38	Sys:Plate 5 has begun reading/imaging number: 8; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+66	Fri 09:14:59	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+67	Fri 09:18:50	Sys:Plate 5 has completed reading/imaging number: 8.
+68	Fri 11:01:30	Sys:Plate 3 has begun reading/imaging number: 9; Protocol: Migration 12 well BioSpa Lucia.prt
+69	Fri 11:01:52	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+70	Fri 11:05:43	Sys:Plate 3 has completed reading/imaging number: 9.
+71	Fri 11:14:37	Sys:Plate 5 has begun reading/imaging number: 9; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+72	Fri 11:14:59	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+73	Fri 11:18:49	Sys:Plate 5 has completed reading/imaging number: 9.
+74	Fri 13:01:30	Sys:Plate 3 has begun reading/imaging number: 10; Protocol: Migration 12 well BioSpa Lucia.prt
+75	Fri 13:01:52	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+76	Fri 13:05:43	Sys:Plate 3 has completed reading/imaging number: 10.
+77	Fri 13:14:38	Sys:Plate 5 has begun reading/imaging number: 10; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+78	Fri 13:14:59	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+79	Fri 13:18:49	Sys:Plate 5 has completed reading/imaging number: 10.
+80	Fri 15:01:30	Sys:Plate 3 has begun reading/imaging number: 11; Protocol: Migration 12 well BioSpa Lucia.prt
+81	Fri 15:01:52	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+82	Fri 15:05:42	Sys:Plate 3 has completed reading/imaging number: 11.
+83	Fri 15:14:37	Sys:Plate 5 has begun reading/imaging number: 11; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+84	Fri 15:14:59	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+85	Fri 15:18:50	Sys:Plate 5 has completed reading/imaging number: 11.
+86	Fri 17:01:29	Sys:Plate 3 has begun reading/imaging number: 12; Protocol: Migration 12 well BioSpa Lucia.prt
+87	Fri 17:01:52	Sys:Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt
+88	Fri 17:05:44	Sys:Plate 3 has completed reading/imaging number: 12.
+89	Fri 17:14:37	Sys:Plate 5 has begun reading/imaging number: 12; Protocol: Migration 12 well BioSpa plate2 Lucia.prt
+90	Fri 17:14:59	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt
+91	Fri 17:18:51	Sys:Plate 5 has completed reading/imaging number: 12.
+92	Fri 17:32:50	User:Began plate removal process for plate: 5.
+93	Fri 17:33:03	Sys:Completed plate removal process for plate: 5.
+94	Fri 17:33:16	User:Began plate removal process for plate: 3.

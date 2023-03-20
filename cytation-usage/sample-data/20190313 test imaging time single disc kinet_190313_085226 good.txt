@@ -1,0 +1,19 @@
+Data Audit Trail
+
+Date,User,Event,Comment
+3/13/2019 8:51:54 AM,User,Protocol "C:\Users\Public\Documents\Admin\20190313 test imaging time disc kinet.prt" (3/13/2019 8:51:44 AM) selected,
+3/13/2019 8:52:56 AM,User,Plate read started,
+3/13/2019 8:54:29 AM,User,Plate read successfully completed,
+3/13/2019 9:02:57 AM,User,Plate next read started,
+3/13/2019 9:04:09 AM,User,Plate read successfully completed,
+3/13/2019 10:59:50 AM,User,Plate next read started,
+3/13/2019 11:01:02 AM,User,Plate read successfully completed,
+3/13/2019 11:09:51 AM,User,Plate next read started,
+3/13/2019 11:11:03 AM,User,Plate read successfully completed,
+3/13/2019 11:19:53 AM,User,Plate next read started,
+3/13/2019 11:21:04 AM,User,Plate read successfully completed,
+3/13/2019 11:29:53 AM,User,Plate next read started,
+3/13/2019 11:31:05 AM,User,Plate read successfully completed,
+3/13/2019 11:39:54 AM,User,Plate next read started,
+3/13/2019 11:41:06 AM,User,Plate read successfully completed,
+

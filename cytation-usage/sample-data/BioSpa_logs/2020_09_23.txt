@@ -1,0 +1,37 @@
+34	Wed 00:00:12	Sys:Chart moved to the second day on the schedule during gap in processing.
+35	Wed 01:02:42	Sys:Plate 5 has begun reading/imaging number: 5; Protocol: Sandra_6well_cell death.prt
+36	Wed 01:03:03	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+37	Wed 01:08:41	Sys:Plate 5 has completed reading/imaging number: 5.
+38	Wed 03:02:42	Sys:Plate 5 has begun reading/imaging number: 6; Protocol: Sandra_6well_cell death.prt
+39	Wed 03:03:03	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+40	Wed 03:08:42	Sys:Plate 5 has completed reading/imaging number: 6.
+41	Wed 05:02:42	Sys:Plate 5 has begun reading/imaging number: 7; Protocol: Sandra_6well_cell death.prt
+42	Wed 05:03:03	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+43	Wed 05:08:42	Sys:Plate 5 has completed reading/imaging number: 7.
+44	Wed 07:02:42	Sys:Plate 5 has begun reading/imaging number: 8; Protocol: Sandra_6well_cell death.prt
+45	Wed 07:03:04	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+46	Wed 07:08:45	Sys:Plate 5 has completed reading/imaging number: 8.
+47	Wed 09:02:43	Sys:Plate 5 has begun reading/imaging number: 9; Protocol: Sandra_6well_cell death.prt
+48	Wed 09:03:04	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+49	Wed 09:08:44	Sys:Plate 5 has completed reading/imaging number: 9.
+50	Wed 11:02:43	Sys:Plate 5 has begun reading/imaging number: 10; Protocol: Sandra_6well_cell death.prt
+51	Wed 11:03:04	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+52	Wed 11:08:42	Sys:Plate 5 has completed reading/imaging number: 10.
+53	Wed 13:02:42	Sys:Plate 5 has begun reading/imaging number: 11; Protocol: Sandra_6well_cell death.prt
+54	Wed 13:03:04	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+55	Wed 13:08:42	Sys:Plate 5 has completed reading/imaging number: 11.
+56	Wed 15:02:43	Sys:Plate 5 has begun reading/imaging number: 12; Protocol: Sandra_6well_cell death.prt
+57	Wed 15:03:05	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+58	Wed 15:08:45	Sys:Plate 5 has completed reading/imaging number: 12.
+59	Wed 17:02:43	Sys:Plate 5 has begun reading/imaging number: 13; Protocol: Sandra_6well_cell death.prt
+60	Wed 17:03:05	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+61	Wed 17:08:43	Sys:Plate 5 has completed reading/imaging number: 13.
+62	Wed 19:02:43	Sys:Plate 5 has begun reading/imaging number: 14; Protocol: Sandra_6well_cell death.prt
+63	Wed 19:03:05	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+64	Wed 19:08:44	Sys:Plate 5 has completed reading/imaging number: 14.
+65	Wed 21:02:42	Sys:Plate 5 has begun reading/imaging number: 15; Protocol: Sandra_6well_cell death.prt
+66	Wed 21:03:05	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+67	Wed 21:08:45	Sys:Plate 5 has completed reading/imaging number: 15.
+68	Wed 23:02:43	Sys:Plate 5 has begun reading/imaging number: 16; Protocol: Sandra_6well_cell death.prt
+69	Wed 23:03:05	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+70	Wed 23:08:46	Sys:Plate 5 has completed reading/imaging number: 16.

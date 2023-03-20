@@ -1,0 +1,33 @@
+1	Tue 16:25:28	User:Reader/Imager taken off-line
+2	Tue 16:35:09	User:Began new session with plate submittal process for plate: 5.
+3	Tue 16:35:23	Warn:Processing began with one or more environmental data parameters out of range of its requested value.
+4	Tue 16:35:24	Sys:Plate 5's ID: none
+5	Tue 16:35:24	Sys:Optimized scheduling used for processing.
+6	Tue 16:35:25	Sys:Created plate 5's Gen5 experiment: D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-35-25.xpt
+7	Tue 16:35:25	Sys:Completed plate submittal process for plate: 5.
+8	Tue 16:35:25	Sys:Processing started. 
+9	Tue 16:38:58	Sys:Plate 5 has begun reading/imaging number: 1; Protocol: Sandra_6well_cell death.prt
+10	Tue 16:39:12	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-35-25.xpt
+11	Tue 16:47:19	User:Began plate removal process for plate: 5.
+12	Tue 16:47:38	Sys:Plate 5 has completed reading/imaging number: 1.
+13	Tue 16:48:49	User:Reader/Imager taken off-line
+14	Tue 16:50:19	User:Reader/Imager taken off-line
+15	Tue 16:53:09	User:Reader/Imager taken off-line
+16	Tue 16:59:08	User:Began new session with plate submittal process for plate: 5.
+17	Tue 16:59:09	Sys:Plate 5's ID: none
+18	Tue 16:59:09	Sys:Optimized scheduling used for processing.
+19	Tue 16:59:09	Sys:Created plate 5's Gen5 experiment: D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+20	Tue 16:59:09	Sys:Completed plate submittal process for plate: 5.
+21	Tue 16:59:09	Sys:Processing started. 
+22	Tue 17:02:43	Sys:Plate 5 has begun reading/imaging number: 1; Protocol: Sandra_6well_cell death.prt
+23	Tue 17:02:55	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+24	Tue 17:08:37	Sys:Plate 5 has completed reading/imaging number: 1.
+25	Tue 19:02:42	Sys:Plate 5 has begun reading/imaging number: 2; Protocol: Sandra_6well_cell death.prt
+26	Tue 19:03:03	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+27	Tue 19:08:40	Sys:Plate 5 has completed reading/imaging number: 2.
+28	Tue 21:02:42	Sys:Plate 5 has begun reading/imaging number: 3; Protocol: Sandra_6well_cell death.prt
+29	Tue 21:03:03	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+30	Tue 21:08:39	Sys:Plate 5 has completed reading/imaging number: 3.
+31	Tue 23:02:42	Sys:Plate 5 has begun reading/imaging number: 4; Protocol: Sandra_6well_cell death.prt
+32	Tue 23:03:02	Sys:Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt
+33	Tue 23:08:42	Sys:Plate 5 has completed reading/imaging number: 4.

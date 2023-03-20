@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSessionEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SessionEvent>
+    <EntryIndex>1</EntryIndex>
+    <DateTime>2020-09-17T18:48:59.1293917-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Reader/Imager taken off-line</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>2</EntryIndex>
+    <DateTime>2020-09-17T18:57:55.1064453-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began new session with plate submittal process for plate: 3.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>3</EntryIndex>
+    <DateTime>2020-09-17T18:57:56.3249125-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3's ID: none</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>4</EntryIndex>
+    <DateTime>2020-09-17T18:57:56.3249125-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Optimized scheduling used for processing.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>5</EntryIndex>
+    <DateTime>2020-09-17T18:57:56.5748939-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Created plate 3's Gen5 experiment: D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>6</EntryIndex>
+    <DateTime>2020-09-17T18:57:56.6217245-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Completed plate submittal process for plate: 3.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>7</EntryIndex>
+    <DateTime>2020-09-17T18:57:56.668587-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Processing started. </Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>8</EntryIndex>
+    <DateTime>2020-09-17T18:58:34.5317509-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>9</EntryIndex>
+    <DateTime>2020-09-17T18:58:35.1253636-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Created plate 5's Gen5 experiment: D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 18-58-34.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>10</EntryIndex>
+    <DateTime>2020-09-17T18:58:35.1566095-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Completed plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>11</EntryIndex>
+    <DateTime>2020-09-17T19:01:30.3192255-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has begun reading/imaging number: 1; Protocol: Migration 12 well BioSpa Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>12</EntryIndex>
+    <DateTime>2020-09-17T19:01:43.691094-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>13</EntryIndex>
+    <DateTime>2020-09-17T19:05:34.5904215-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has completed reading/imaging number: 1.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>14</EntryIndex>
+    <DateTime>2020-09-17T19:07:37.2030082-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 1; Protocol: Migration 12 well BioSpa plate2 Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>15</EntryIndex>
+    <DateTime>2020-09-17T19:07:56.557888-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 18-58-34.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>16</EntryIndex>
+    <DateTime>2020-09-17T19:09:39.5899079-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began plate removal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>17</EntryIndex>
+    <DateTime>2020-09-17T19:09:55.5240587-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 1.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>18</EntryIndex>
+    <DateTime>2020-09-17T19:10:37.0095287-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Completed plate removal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>19</EntryIndex>
+    <DateTime>2020-09-17T19:11:03.9411589-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>20</EntryIndex>
+    <DateTime>2020-09-17T19:11:04.6749989-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Created plate 5's Gen5 experiment: D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>21</EntryIndex>
+    <DateTime>2020-09-17T19:11:04.7222052-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Completed plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>22</EntryIndex>
+    <DateTime>2020-09-17T19:14:52.2632434-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 1; Protocol: Migration 12 well BioSpa plate2 Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>23</EntryIndex>
+    <DateTime>2020-09-17T19:15:11.5240511-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>24</EntryIndex>
+    <DateTime>2020-09-17T19:18:59.456443-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 1.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>25</EntryIndex>
+    <DateTime>2020-09-17T21:01:29.9801924-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has begun reading/imaging number: 2; Protocol: Migration 12 well BioSpa Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>26</EntryIndex>
+    <DateTime>2020-09-17T21:01:49.5377923-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>27</EntryIndex>
+    <DateTime>2020-09-17T21:05:39.5154567-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has completed reading/imaging number: 2.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>28</EntryIndex>
+    <DateTime>2020-09-17T21:14:38.0622008-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 2; Protocol: Migration 12 well BioSpa plate2 Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>29</EntryIndex>
+    <DateTime>2020-09-17T21:14:58.0731927-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>30</EntryIndex>
+    <DateTime>2020-09-17T21:18:47.6134065-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 2.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>31</EntryIndex>
+    <DateTime>2020-09-17T23:01:30.2283665-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has begun reading/imaging number: 3; Protocol: Migration 12 well BioSpa Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>32</EntryIndex>
+    <DateTime>2020-09-17T23:01:50.5208413-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaLucia_17-Sep-2020 18-57-56.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>33</EntryIndex>
+    <DateTime>2020-09-17T23:05:40.2640701-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has completed reading/imaging number: 3.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>34</EntryIndex>
+    <DateTime>2020-09-17T23:14:37.7166742-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 3; Protocol: Migration 12 well BioSpa plate2 Lucia.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>35</EntryIndex>
+    <DateTime>2020-09-17T23:14:57.9772015-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Ferrando\Lucia\Migration12wellBioSpaplate2Lucia_17-Sep-2020 19-11-04.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>36</EntryIndex>
+    <DateTime>2020-09-17T23:18:47.5801619-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 3.</Text>
+  </SessionEvent>
+</ArrayOfSessionEvent>

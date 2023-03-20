@@ -1,0 +1,18 @@
+2023-03-03 11:44:13.931 *nis* Log session started.
+2023-03-03 11:44:13.931 *nis* 1784 RDTSC instruction NOT present.
+2023-03-03 11:44:14.015 *nis* 1784 UpdateDDBObjectives() : Start.
+2023-03-03 11:44:14.015 *nis* 1784 UpdateDDBObjectives() : End(2).
+2023-03-03 11:44:14.036 *nis* 1784 WinMain() - Phase #00 (application start) - 11:44:14 - 269.90
+2023-03-03 11:44:14.222 *nis* 1784 Qt Warning: Attribute Qt::AA_ShareOpenGLContexts must be set before QCoreApplication is created.
+2023-03-03 11:44:14.223 *nis* 1784 ParseCommandLine() : C:\Program Files\NIS-Elements\nis_ar.exe -f D:\Yellow microscope users\Tabas lab\Santosh\Feb 23 2023 Int p-pax repeat same slide\+KO 1018.nd2
+2023-03-03 11:44:14.223 *nis* 1784 CLxSchedulerSupport::GetRegistryValueString read SocketName: 
+2023-03-03 11:44:14.223 *nis* 1784 ENTERING 'CLxRTTI::loadCatalog'
+2023-03-03 11:44:14.225 *nis* 1784 LEAVING  'CLxRTTI::loadCatalog' 2.0ms spent inside
+2023-03-03 11:44:14.225 *nis* 1784 ENTERING 'CLxRTTI::updateCatalog'
+2023-03-03 11:44:14.325 *nis* 1784 ENTERING 'CLxRTTI::saveCatalog'
+2023-03-03 11:44:14.325 *nis* 1784 Saving RTTI cache
+2023-03-03 11:44:14.331 *nis* 1784 LEAVING  'CLxRTTI::saveCatalog' 6.0ms spent inside
+2023-03-03 11:44:14.331 *nis* 1784 LEAVING  'CLxRTTI::updateCatalog' 106.0ms spent inside
+2023-03-03 11:44:14.333 *nis* 1784 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_serializer_xml.dll") : OK
+2023-03-03 11:44:14.334 *nis* 1784 IPCServer: Main thread awaiting client connection on \\.\pipe\NIS_ELEMENTS_ARE_RUNNING
+2023-03-03 11:44:14.335 *nis* 1784 IPCServer: CreateNamedPipe failed, GLE=231.

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSessionEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SessionEvent>
+    <EntryIndex>37</EntryIndex>
+    <DateTime>2020-09-05T00:00:34.4986716-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Chart moved to the next day on the schedule during gap in processing.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>38</EntryIndex>
+    <DateTime>2020-09-05T04:32:44.3557091-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has begun reading/imaging number: 8; Protocol: AutoScratch 96-well Imaging and Analysis BF and mCherry.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>39</EntryIndex>
+    <DateTime>2020-09-05T04:33:07.2250014-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Chio lab\Belen\AutoScratch96-wellImagingandAnalysisBFandmCherry_03-Sep-2020 10-29-12.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>40</EntryIndex>
+    <DateTime>2020-09-05T04:45:54.2488843-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has completed reading/imaging number: 8.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>41</EntryIndex>
+    <DateTime>2020-09-05T10:32:44.6370103-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has begun reading/imaging number: 9; Protocol: AutoScratch 96-well Imaging and Analysis BF and mCherry.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>42</EntryIndex>
+    <DateTime>2020-09-05T10:33:06.8971926-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 3 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Chio lab\Belen\AutoScratch96-wellImagingandAnalysisBFandmCherry_03-Sep-2020 10-29-12.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>43</EntryIndex>
+    <DateTime>2020-09-05T10:45:49.0461858-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 3 has completed reading/imaging number: 9.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>44</EntryIndex>
+    <DateTime>2020-09-05T10:53:57.1158316-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began plate removal process for plate: 3.</Text>
+  </SessionEvent>
+</ArrayOfSessionEvent>

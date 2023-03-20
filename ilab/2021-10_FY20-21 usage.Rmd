@@ -1,0 +1,145 @@
+---
+title: "Assisted Use in the Confocal Microscopy Facility, FY2020-21"
+output:
+  html_document:
+    df_print: paged
+    self_contained: true #stores images with the html
+  word_document: default
+  pdf_document: default
+  html_notebook: default
+---
+
+# Purpose
+
+To find out the proportion of assisted and non-assisted use by HICCC members and non-members during a fiscal year.
+
+
+For this period, the output file is called `07012020_06302021_charges_report_source_data_3386393480.csv`.
+
+Each row in the table represents one reservation or billed service request.
+
+To analyze this file, *add the filename and path to the R code in this notebook*.
+
+```{r message=FALSE, warning=FALSE, results='hide'}
+library(dplyr)
+library(readr)
+
+datapath <- "/Users/theresaswayne/Documents/GitHub/data-analysis/R/facility-usage/usage_data"
+datafile <- "07012020_06302021_charges_report_source_data_3386393480.csv"
+usage <- read_csv(file.path(datapath, datafile))
+```
+
+# Collecting data by usage type
+
+For each reservation, the level of assistance is recorded in the "Usage Type" column.
+
+The possible values in this column are shown below.
+
+```{r results='markup'}
+usage$`Usage Type` <- factor(usage$`Usage Type`)
+levels(usage$`Usage Type`)
+```
+
+Note that Usage Type "1" indicates the Image Processing service.
+
+To get all the hours when a staff member was working with, or for, a user, we need to include *Assisted Use*, *Training*, and *1*.
+
+1. First we **filter** the rows that contain these patterns.
+1. Then we **select** the column corresponding to the hours of use.
+1. Finally we **sum** all the hours.
+
+```{r}
+hrs_assist <- dplyr::filter(usage, grepl("Assisted|Training|1", `Usage Type`)) %>%
+                dplyr::select(Quantity) %>%
+                sum()
+```
+
+Similarly, to get hours when staff was *not* directly assisting, we select for all rows that contain the words *Unassisted* or *Independent*.
+```{r}
+hrs_unass <- dplyr::filter(usage, grepl("Unassisted|Independent", `Usage Type`)) %>%
+                dplyr::select(Quantity) %>%
+                sum()
+```
+
+# Summary of assisted hours
+
+The hours and percentage of the total usage are shown below.
+```{r}
+hrs_total = hrs_assist + hrs_unass
+usage_type <- c("Assisted/Service", "Non-Assisted", "Total")
+hours <- c(hrs_assist, hrs_unass, hrs_total)
+
+hrs_summ <- cbind(`Usage Type` = usage_type, Hours = hours) %>%
+  as.data.frame(stringsAsFactors = FALSE)
+
+hrs_summ$Hours <- as.numeric(as.character(hrs_summ$Hours)) # force R to see the hours as numeric
+
+hrs_summ <- mutate(hrs_summ, 
+                Percent = 100 * round((Hours / sum(Hours[-length(Hours)])), 2))
+
+hrs_summ
+                
+```
+
+# Grouping by HICCC membership
+
+To find out if HICCC members and non-members use different proportions of assisted hours, we can filter by `Price Type` which has the following values:
+
+```{r results='markup'}
+usage$`Price Type` <- factor(usage$`Price Type`)
+levels(usage$`Price Type`)
+```
+
+We want to break this into 2 categories, `Cancer Center Member` and everything else.
+
+Using the filter-select-sum strategy as above, we can modify our code:
+```{r}
+hrs_assist_cc <- dplyr::filter(usage, grepl("Assisted|Training|1", `Usage Type`) & grepl("Cancer Center Member", `Price Type`)) %>%
+                dplyr::select(Quantity) %>%
+                sum()
+
+hrs_unass_cc <- dplyr::filter(usage, grepl("Unassisted|Independent", `Usage Type`) & grepl("Cancer Center Member", `Price Type`)) %>%
+                dplyr::select(Quantity) %>%
+                sum()
+```
+
+# Final summary
+
+We can get a table of results by calculating some more values and assembling them into a table.
+
+```{r message=FALSE, warning=FALSE, results='hide'}
+
+# calculate Total HICCC hours
+hrs_total_cc = hrs_assist_cc + hrs_unass_cc
+
+# calculate Non-HICCC hours
+hrs_assist_nonCC = hrs_assist - hrs_assist_cc
+hrs_unass_nonCC = hrs_unass - hrs_unass_cc
+hrs_total_nonCC = hrs_total - hrs_total_cc
+
+# put together each column
+hours_cc <- c(hrs_assist_cc, hrs_unass_cc, hrs_total_cc)
+hours_nonCC <- c(hrs_assist_nonCC, hrs_unass_nonCC, hrs_total_nonCC)
+hours_total <- c(hrs_assist, hrs_unass, hrs_total)
+
+# calculate percentages -- sum all but the last element of the vector (which is the total)
+pct_cc = 100 * round((hours_cc / sum(hours_cc[-length(hours_cc)])), 2)
+pct_nonCC = 100 * round((hours_nonCC / sum(hours_nonCC[-length(hours_nonCC)])), 2)
+pct_total = 100 * round((hours_total / sum(hours_total[-length(hours_total)])), 2)
+
+# bind the columns together into a table
+hrs_summ_final <- cbind(`Usage Type` = usage_type, 
+                        `HICCC` = hours_cc, 
+                        `% of HICCC usage` = pct_cc, 
+                        `Non-HICCC` = hours_nonCC, 
+                        `% of Non-HICCC usage` = pct_nonCC, 
+                        `Total` = hours_total, 
+                        `% of Total` = pct_total) %>%
+  as.data.frame(stringsAsFactors = FALSE)
+```
+
+
+```{r}
+# show the table
+hrs_summ_final
+```

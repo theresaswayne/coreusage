@@ -1,0 +1,7 @@
+Data Audit Trail
+
+Date,User,Event,Comment
+5/16/2019 11:06:19 AM,User,Protocol "C:\Users\Public\Documents\Indigo Plate Reader User Data\Shen lab\2019-04-12 Bo Li protocol.prt" (4/12/2019 10:21:05 AM) selected,
+5/16/2019 11:10:51 AM,User,Plate read started,
+5/16/2019 11:27:45 AM,User,Plate read successfully completed,
+

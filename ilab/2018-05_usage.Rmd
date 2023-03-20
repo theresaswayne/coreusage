@@ -1,0 +1,72 @@
+---
+title: "Assisted Use in the Confocal Microscopy Facility"
+output:
+  html_notebook: default
+  word_document: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+Data was downloaded from iLab.
+
+Each row in the table represents one reservation or billed service request.
+```{r message=FALSE, warning=FALSE, results='hide'}
+library(dplyr)
+library(readr)
+
+datapath <- "/Users/confocal/github_theresaswayne/data-analysis/R/usage_data"
+datafile <- "01012018_05312018_charges_report_source_data.csv"
+usage <- read_csv(file.path(datapath, datafile))
+```
+
+# Collecting data by usage type
+
+For each reservation, the level of assistance is recorded in the "Usage Type" column.
+
+The possible values in this column are shown below.
+
+```{r results='markup'}
+usage$`Usage Type` <- factor(usage$`Usage Type`)
+levels(usage$`Usage Type`)
+```
+
+Note that Usage Type "1" indicates the Image Processing service.
+
+To get all the hours when a staff member was working with, or for, a user, we need to include *Assisted Use*, *Training*, and *1*.
+
+1. First we **filter** the rows that contain these patterns.
+1. Then we **select** the column corresponding to the hours of use.
+1. Finally we **sum** all the hours.
+
+```{r}
+hrs_assist <- dplyr::filter(usage, grepl("Assisted|Training|1", `Usage Type`)) %>%
+                dplyr::select(Quantity) %>%
+                sum()
+```
+
+Similarly, to get hours when staff was *not* directly assisting, we select for all rows that contain the words *Unassisted* or *Independent*.
+```{r}
+hrs_unass <- dplyr::filter(usage, grepl("Unassisted|Independent", `Usage Type`)) %>%
+                dplyr::select(Quantity) %>%
+                sum()
+```
+
+# Summary
+
+The hours and percentage of the total are shown below.
+```{r}
+usage_type <- c("Assisted/Service", "Non-Assisted")
+hours <- c(hrs_assist, hrs_unass)
+
+hrs_summ <- cbind(`Usage Type` = usage_type, Hours = hours) %>%
+  as.data.frame(stringsAsFactors = FALSE)
+
+hrs_summ$Hours <- as.numeric(as.character(hrs_summ$Hours)) # force R to see the hours as numeric
+
+hrs_summ <- mutate(hrs_summ, 
+                Percent = round((Hours / sum(Hours)), 2))
+
+hrs_summ
+                
+```

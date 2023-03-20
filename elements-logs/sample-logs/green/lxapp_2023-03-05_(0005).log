@@ -1,0 +1,969 @@
+2023-03-05 11:07:11.252 *nis* Log session started.
+2023-03-05 11:07:11.252 *nis* 3c04 RDTSC instruction NOT present.
+2023-03-05 11:07:11.375 *nis* 3c04 UpdateDDBObjectives() : Start.
+2023-03-05 11:07:11.375 *nis* 3c04 UpdateDDBObjectives() : End(2).
+2023-03-05 11:07:11.394 *nis* 3c04 WinMain() - Phase #00 (application start) - 11:07:11 - 308.81
+2023-03-05 11:07:11.708 *nis* 3c04 Qt Warning: Attribute Qt::AA_ShareOpenGLContexts must be set before QCoreApplication is created.
+2023-03-05 11:07:11.709 *nis* 3c04 ParseCommandLine() : C:\Program Files\NIS-Elements\nis_ar.exe
+2023-03-05 11:07:11.709 *nis* 3c04 CLxSchedulerSupport::GetRegistryValueString read SocketName: 
+2023-03-05 11:07:11.709 *nis* 3c04 ENTERING 'CLxRTTI::loadCatalog'
+2023-03-05 11:07:11.732 *nis* 3c04 LEAVING  'CLxRTTI::loadCatalog' 23.0ms spent inside
+2023-03-05 11:07:11.732 *nis* 3c04 ENTERING 'CLxRTTI::updateCatalog'
+2023-03-05 11:07:11.778 *nis* 3c04 ENTERING 'CLxRTTI::saveCatalog'
+2023-03-05 11:07:11.778 *nis* 3c04 Saving RTTI cache
+2023-03-05 11:07:11.785 *nis* 3c04 LEAVING  'CLxRTTI::saveCatalog' 7.0ms spent inside
+2023-03-05 11:07:11.785 *nis* 3c04 LEAVING  'CLxRTTI::updateCatalog' 53.0ms spent inside
+2023-03-05 11:07:11.787 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_serializer_xml.dll") : OK
+2023-03-05 11:07:11.788 *nis* 3c04 IPCServer: Main thread awaiting client connection on \\.\pipe\NIS_ELEMENTS_ARE_RUNNING
+2023-03-05 11:07:11.791 *nis* 3c04 BIOS release date: 02/02/2022
+2023-03-05 11:07:11.791 *nis* 3c04 BIOS version: P61 v02.78
+2023-03-05 11:07:11.791 *nis* 3c04 System Manufacturer: HP
+2023-03-05 11:07:11.791 *nis* 3c04 System Product Name: HP Z4 G4 Workstation
+2023-03-05 11:07:11.791 *nis* 3c04 Operating System Name: Windows 10 Pro for Workstations
+2023-03-05 11:07:11.792 *nis* 3c04 Operating System Version: 10.0.19041.2364
+2023-03-05 11:07:11.792 *nis* 3c04 Cstates disable: TRUE
+2023-03-05 11:07:11.792 *nis* 3ea8 Qt Warning: QObject::startTimer: Timers can only be used with threads started with QThread
+2023-03-05 11:07:11.793 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_docuset.dll") : OK
+2023-03-05 11:07:11.806 *nis* 3c04 GetSid succeded, user: Nikon TIRF-SDC, SID: S-1-5-21-1993550511-2565382146-2092099927-1001
+2023-03-05 11:07:11.814 *nis* 3c04 Windows user: Nikon TIRF-SDC
+2023-03-05 11:07:11.824 *nis* 3c04 SearchAndLoadVendorModules: Application path: C:\Program Files\NIS-Elements\nis_ni?_*.dll
+2023-03-05 11:07:11.827 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_system.dll") : OK
+2023-03-05 11:07:11.829 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_serializer_reg.dll") : OK
+2023-03-05 11:07:11.829 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_support_gpu.dll") : OK
+2023-03-05 11:07:12.246 *nis* 3c04 Qt Debug: CL PERFORMANCE: device (Quadro RTX 4000), SP (6.8), DP (268.3)
+2023-03-05 11:07:12.255 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_01.dll") : OK
+2023-03-05 11:07:12.256 *nis* 3c04 CLxPluginManager::LoadModules("CLxModule01") : OK
+2023-03-05 11:07:12.258 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_report.dll") : OK
+2023-03-05 11:07:12.258 *nis* 3c04 CLxPluginManager::LoadModules("CLxPluginReport") : OK
+2023-03-05 11:07:12.260 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_fret.dll") : OK
+2023-03-05 11:07:12.260 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleFRET") : OK
+2023-03-05 11:07:12.262 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_edf.dll") : OK
+2023-03-05 11:07:12.262 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleEDF") : OK
+2023-03-05 11:07:12.268 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_denoise.dll") : OK
+2023-03-05 11:07:12.268 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleDenoise") : OK
+2023-03-05 11:07:12.272 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_deeplearning.dll") : OK
+2023-03-05 11:07:12.272 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleDeepLearning") : OK
+2023-03-05 11:07:12.274 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_deconv.dll") : OK
+2023-03-05 11:07:12.275 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleDeconv") : OK
+2023-03-05 11:07:12.278 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga_rgb.dll") : OK
+2023-03-05 11:07:12.279 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleAssayGaRgb") : OK
+2023-03-05 11:07:12.285 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga3.dll") : OK
+2023-03-05 11:07:12.289 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleAssayGa3") : OK
+2023-03-05 11:07:12.292 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga.dll") : OK
+2023-03-05 11:07:12.293 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleAssayGa") : OK
+2023-03-05 11:07:12.296 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_storm_new.dll") : OK
+2023-03-05 11:07:12.296 *nis* 3c04 CLxPluginManager::LoadModules("CLxModuleStormNew") : OK
+2023-03-05 11:07:13.076 *nis* 3c04 License ID 2D7F2A2F is used.
+2023-03-05 11:07:13.359 *nis* 3c04 STORM allowed
+2023-03-05 11:07:13.370 *nis* 3c04 CLxPluginManager::LoadModules() - module 'CLxModuleFRET' not allowed by license.
+2023-03-05 11:07:13.372 *nis* 3c04 CLxPluginManager::LoadModules() - module 'CLxModuleEDF' not allowed by license.
+2023-03-05 11:07:13.377 *nis* 3c04 CLxPluginManager::LoadModules() - module 'CLxModuleAssayGaRgb' not allowed by license.
+2023-03-05 11:07:13.381 *nis* 3c04 CLxPluginManager::LoadModules() - module 'CLxModuleAssayGa' not allowed by license.
+2023-03-05 11:07:13.384 *nis* 3c04 CLxLocale::SetLangID(1033) : English
+2023-03-05 11:07:13.479 *nis* 3c04 SetLuciaVersion() : NIS-Elements AR; 5.30.06 (Build 1567) 64 bit
+2023-03-05 11:07:13.483 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_reportobjects.dll") : OK
+2023-03-05 11:07:13.696 *nis* 3c04 Font Zoom: 1.00
+2023-03-05 11:07:13.696 *nis* 3c04 Font Zoom: 1.00
+2023-03-05 11:07:13.726 *nis* 3c04 Init color scheme: 2; Flat: 1
+2023-03-05 11:07:13.773 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformatmanager.dll") : OK
+2023-03-05 11:07:13.777 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_tif.dll") : OK
+2023-03-05 11:07:13.777 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatLSM") : OK
+2023-03-05 11:07:13.777 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatOMETIF") : Failed GetID(...)
+2023-03-05 11:07:13.782 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ndp.dll") : OK
+2023-03-05 11:07:13.782 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatNDP") : OK
+2023-03-05 11:07:13.784 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_nd2.dll") : OK
+2023-03-05 11:07:13.784 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatND2") : OK
+2023-03-05 11:07:13.786 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_lim.dll") : OK
+2023-03-05 11:07:13.786 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatLIM") : OK
+2023-03-05 11:07:13.789 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_mov.dll") : OK
+2023-03-05 11:07:13.789 *nis* 3c04 WRAP:CLxWin3264Wrap::Connect - trying to connect ...
+2023-03-05 11:07:14.004 *nis* 3c04 WRAP:CLxWin3264Wrap::Connect - successfully connected
+2023-03-05 11:07:14.028 *nis* 3c04 WRAP:CLxWin3264Wrap::Disconnect - successfully disconnected
+2023-03-05 11:07:14.028 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatMov") : Failed GetID(...)
+2023-03-05 11:07:14.028 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imagefilecontainer.dll") : OK
+2023-03-05 11:07:14.028 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatContainer") : Failed GetID(...)
+2023-03-05 11:07:14.030 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_nef.dll") : OK
+2023-03-05 11:07:14.090 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatNEF") : OK
+2023-03-05 11:07:14.099 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_mp4.dll") : OK
+2023-03-05 11:07:14.100 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatMP4") : OK
+2023-03-05 11:07:14.102 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_avi.dll") : OK
+2023-03-05 11:07:14.102 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatAVI") : OK
+2023-03-05 11:07:14.107 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_jp2.dll") : OK
+2023-03-05 11:07:14.107 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatND") : OK
+2023-03-05 11:07:14.107 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJP2") : OK
+2023-03-05 11:07:14.114 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ometiff.dll") : OK
+2023-03-05 11:07:14.114 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatOMETIFF") : OK
+2023-03-05 11:07:14.132 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_json.dll") : OK
+2023-03-05 11:07:14.132 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJson") : OK
+2023-03-05 11:07:14.132 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatTIF") : OK
+2023-03-05 11:07:14.134 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_jpg2.dll") : OK
+2023-03-05 11:07:14.134 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJPG") : OK
+2023-03-05 11:07:14.144 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_lead.dll") : OK
+2023-03-05 11:07:14.144 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatGIF") : OK
+2023-03-05 11:07:14.144 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatBMP") : OK
+2023-03-05 11:07:14.144 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatPSD") : OK
+2023-03-05 11:07:14.146 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_PNG.dll") : OK
+2023-03-05 11:07:14.146 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatPNG") : OK
+2023-03-05 11:07:14.147 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ics.dll") : OK
+2023-03-05 11:07:14.147 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatICS") : OK
+2023-03-05 11:07:14.149 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_clipboard.dll") : OK
+2023-03-05 11:07:14.149 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatClipboard") : OK
+2023-03-05 11:07:14.149 *nis* 3c04 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatDIB") : OK
+2023-03-05 11:07:14.149 *nis* 3c04 Startup message : Checking user rights...
+2023-03-05 11:07:14.152 *nis* 3c04 WinMain() - Phase #01 (before SelectGrabber()) - 11:07:14 - 2757.14
+2023-03-05 11:07:14.152 *nis* 3c04 Startup message : Restoring Database of Devices...
+2023-03-05 11:07:14.153 *nis* 3c04 Startup message : Initializing Device Database...
+2023-03-05 11:07:14.156 *nis* 3c04 Device Database connection opened: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-05 11:07:14.157 *nis* 3c04 Device Database version 46 checked successfully
+2023-03-05 11:07:14.158 *nis* 3c04 Current system User ID is 1
+2023-03-05 11:07:14.159 *nis* 3c04 Current system HW Config ID is 1
+2023-03-05 11:07:14.160 *nis* 3c04 Current system Lightpath ID is 24
+2023-03-05 11:07:14.169 *nis* 3c04 DeviceDBAppHelper::GetHWConfigCameraString(): End - success...
+2023-03-05 11:07:14.172 *nis* 3c04 Startup message : Selecting Setup and Hardware Configuration...
+2023-03-05 11:07:14.172 *nis* 2b90 _DMv2_ CLxDeviceManagerv2::Init() - begin
+2023-03-05 11:07:14.172 *nis* 2b90 _DMv2_ CLxDeviceManagerv2::Init() - #3
+2023-03-05 11:07:14.172 *nis* 2b90 _DMv2_ CLxOpticalPathHWUnitsCatalog::LoadCatalog() - begin
+2023-03-05 11:07:14.173 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_grabbermanager01.dll") : OK
+2023-03-05 11:07:14.174 *nis* 3c04 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverGeneral, C:\Program Files\NIS-Elements\v6_gnr_grabbermanager01.dll)
+2023-03-05 11:07:14.174 *nis* 3c04 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverAndor, C:\Program Files\NIS-Elements\v6_w32_grabber_andor.dll)
+2023-03-05 11:07:14.175 *nis* 3c04 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverAndorNeo, C:\Program Files\NIS-Elements\v6_w32_grabber_andor_neo.dll)
+2023-03-05 11:07:14.175 *nis* 3c04 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverPhotometrics_v2, C:\Program Files\NIS-Elements\v6_w32_grabber_photometrics_v2.dll)
+2023-03-05 11:07:14.193 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::ShowSetupAndHWConfigSelectionDialog()
+2023-03-05 11:07:14.242 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): begin
+2023-03-05 11:07:14.242 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogModel(): Creating model - begin
+2023-03-05 11:07:14.242 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::Update(): begin
+2023-03-05 11:07:14.242 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::clear(): Resetting model - begin: row count = 0.
+2023-03-05 11:07:14.242 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::clear(): Resetting model - end: row count = 0.
+2023-03-05 11:07:14.247 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::Update(): End - success...
+2023-03-05 11:07:14.247 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogModel(): Creating model - end
+2023-03-05 11:07:14.247 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogProperties(): Creating dialog properties.
+2023-03-05 11:07:14.247 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialog::SetContextProperty read NISShutdownSuccessful: 1
+2023-03-05 11:07:14.247 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogProperties::GetModel(): Model valid: 1
+2023-03-05 11:07:14.451 *nis* 3c04 Qt Debug: Gui Zoom Changed to: 1
+2023-03-05 11:07:14.456 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogProperties::GetModel(): Model valid: 1
+2023-03-05 11:07:14.715 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index - begin
+2023-03-05 11:07:14.715 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index to - 0
+2023-03-05 11:07:14.715 *nis* 3c04 Qt Debug: Current index: 0
+2023-03-05 11:07:14.715 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index to - 1
+2023-03-05 11:07:14.719 *nis* 3c04 Qt Debug: Current index: 1
+2023-03-05 11:07:14.719 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): SetupUi - end
+2023-03-05 11:07:16.171 *nis* 2b90 _DMv2_ CLxOpticalPathHWUnitsCatalog::LoadCatalog() - end
+2023-03-05 11:07:16.171 *nis* 2b90 _DMv2_ CLxDeviceManagerv2::Init() - end
+2023-03-05 11:07:32.903 *nis* 3c04 Qt Debug: Current index: 3
+2023-03-05 11:07:33.887 *nis* 3c04 Qt Debug: Current index: 5
+2023-03-05 11:07:34.382 *nis* 3c04 Setting current system HW Config ID to -1
+2023-03-05 11:07:34.383 *nis* 3c04 Startup message : Running in passive mode...
+2023-03-05 11:07:34.384 *nis* 3c04 Selected passive mode
+2023-03-05 11:07:34.390 *nis* 3c04 DMApi::Refresh() - begin
+2023-03-05 11:07:34.390 *nis* 3c04 Qt Debug: DELTA >>  m_pGUIInterface->DeviceChangeNotification 0
+2023-03-05 11:07:34.391 *nis* 3c04 WinMain() - Phase #02 (after SelectGrabber()) - 11:07:34 - 20239.05
+2023-03-05 11:07:34.391 *nis* 3c04 Startup message : Creating main window...
+2023-03-05 11:07:34.446 *nis* 3c04 Qt Debug: MainWindow Created
+2023-03-05 11:07:34.446 *nis* 3c04 Qt Debug: Title Bar created 
+2023-03-05 11:07:34.447 *nis* 3c04 Qt Debug: Layout Bar created, width: 0, implicitWidth: 0, maxWidth: 1280
+2023-03-05 11:07:34.463 *nis* 3c04 Qt Debug: Right Title Bar Created
+2023-03-05 11:07:34.476 *nis* 3c04 Startup message : Initializing script...
+2023-03-05 11:07:34.477 *nis* 3c04 Startup message : Initializing Layout Manager...
+2023-03-05 11:07:34.481 *nis* 3c04 Startup message : Loading connection points...
+2023-03-05 11:07:34.482 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_database.dll") : OK
+2023-03-05 11:07:34.482 *nis* 3c04 Failed to load database Connection Points.
+2023-03-05 11:07:34.485 *nis* 3c04 Startup message : Initializing thumbnail cache...
+2023-03-05 11:07:34.488 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_thumbnailcache.dll") : OK
+2023-03-05 11:07:34.489 *nis* 3c04 Startup message : Registering procedures...
+2023-03-05 11:07:34.505 *nis* 3c04 Module 'Database' not allowed in the HASP key.
+2023-03-05 11:07:34.505 *nis* 3c04 Module 'MultiView' not allowed in the HASP key.
+2023-03-05 11:07:34.506 *nis* 3c04 CLxECMAScript initialized: OK
+2023-03-05 11:07:34.573 *nis* 3c04 LimGeneralAnalysisGraphVer1 64
+2023-03-05 11:07:34.575 *nis* 3c04 Startup message : Loading settings...
+2023-03-05 11:07:34.576 *nis* 3c04 Environment variable TMP: C:\Users\NIKONT~1\AppData\Local\Temp
+2023-03-05 11:07:34.577 *nis* 3c04 Environment variable TEMP: C:\Users\NIKONT~1\AppData\Local\Temp
+2023-03-05 11:07:34.577 *nis* 3c04 Environment variable USERPROFILE: C:\Users\Nikon TIRF-SDC
+2023-03-05 11:07:34.577 *nis* 3c04 Environment variable WINDIR: C:\WINDOWS
+2023-03-05 11:07:34.577 *nis* 3c04 LX_GetTempPath result: C:\Users\NIKONT~1\AppData\Local\Temp\
+2023-03-05 11:07:35.070 *nis* 3c04 Startup message : Creating menu...
+2023-03-05 11:07:35.281 *nis* 3c04 CLxStimulationDeviceManager::UpdateStimulationLightpaths - begin
+2023-03-05 11:07:35.282 *nis* 3c04 CLxStimulationDeviceManager::UpdateStimulationLightpaths - begin, Current stimulation Lightpath ids: 
+2023-03-05 11:07:35.310 *nis* 3c04 Startup message : Preparing plugin GUI...
+2023-03-05 11:07:35.312 *nis* 3c04 Startup message : Preparing GUI...
+2023-03-05 11:07:35.372 *nis* 3c04 Startup message : Preparing MDI GUI...
+2023-03-05 11:07:35.504 *nis* 3c04 Qt Debug: DocumentTabs Created
+2023-03-05 11:07:35.509 *nis* 3c04 Startup message : Starting grabber...
+2023-03-05 11:07:35.510 *nis* 3c04 Startup message : Connecting devices...
+2023-03-05 11:07:35.511 *nis* 3c04 StgInitDMHelper() begin
+2023-03-05 11:07:35.512 *nis* 3c04 DMApi::Init() - begin
+2023-03-05 11:07:35.512 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_devicemanager.dll") : OK
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::Refresh() - begin
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::EnumVariables() - begin
+2023-03-05 11:07:35.544 *nis* 3c04 CLxDeviceDatabase::SetPFSType(0)
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::EnumVariables() - end
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::LogDevs_DispatchActivityChangeToApp() : 0 000000000498DBA0 000000000498EBA0 
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::Refresh() - end
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::Init_Perfusion - begin
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::Init_Perfusion - FindFirstFile(C:\Program Files\NIS-Elements\Perfusion*.dll)
+2023-03-05 11:07:35.544 *nis* 3c04 DMApi::Init_Incubator - begin
+2023-03-05 11:07:35.545 *nis* 3c04 DMApi::Init() - end
+2023-03-05 11:07:35.546 *nis* 3c04 m_sMWJoy_ZFullName_Loaded = Ti ZDrive
+2023-03-05 11:07:35.548 *nis* 3c04 CLxSimpleDMHelper::Initialize() - begin
+2023-03-05 11:07:37.826 *nis* 3c04 CLxSimpleDMHelper::Initialize() - end
+2023-03-05 11:07:37.826 *nis* 3c04 StgInitDMHelper() end
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceXY, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceZ, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceFilterChanger, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceShutter, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceRotary, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceDigitalIO, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceNosepiece, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceZoom, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceLight, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceHeatStage, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceMultiLaser, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceSlideLoader, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceTTLInput, 0
+2023-03-05 11:07:37.826 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceTTLOutput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceAnalogInput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceAnalogOutput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceCalibratedAnalogInput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceCalibratedAnalogOutput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceRealTimeTTLInput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceRealTimeAnalogInput, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceMonochromator, 0
+2023-03-05 11:07:37.827 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceGalvoXY, 0
+2023-03-05 11:07:37.830 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceXY, 0
+2023-03-05 11:07:37.830 *nis* 3c04 Device 'IDeviceXY' not allowed in the HASP key.
+2023-03-05 11:07:37.832 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceZ, 0
+2023-03-05 11:07:37.832 *nis* 3c04 Device 'IDeviceZ' not allowed in the HASP key.
+2023-03-05 11:07:37.833 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceNosepiece, 0
+2023-03-05 11:07:37.833 *nis* 3c04 Device 'IDeviceNosepiece' not allowed in the HASP key.
+2023-03-05 11:07:37.834 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceFilterChanger, 1
+2023-03-05 11:07:37.835 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceShutter, 1
+2023-03-05 11:07:37.836 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceLight, 0
+2023-03-05 11:07:37.836 *nis* 3c04 Device 'IDeviceLight' not allowed in the HASP key.
+2023-03-05 11:07:37.837 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceZoom, 0
+2023-03-05 11:07:37.837 *nis* 3c04 Device 'IDeviceZoom' not allowed in the HASP key.
+2023-03-05 11:07:37.838 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceHeatStage, 0
+2023-03-05 11:07:37.838 *nis* 3c04 Device 'IDeviceHeatStage' not allowed in the HASP key.
+2023-03-05 11:07:37.839 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceGasConcentration, 0
+2023-03-05 11:07:37.839 *nis* 3c04 Device 'IDeviceGasConcentration' not allowed in the HASP key.
+2023-03-05 11:07:37.840 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceHumidifier, 0
+2023-03-05 11:07:37.840 *nis* 3c04 Device 'IDeviceHumidifier' not allowed in the HASP key.
+2023-03-05 11:07:37.842 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceRotary, 0
+2023-03-05 11:07:37.842 *nis* 3c04 Device 'IDeviceRotary' not allowed in the HASP key.
+2023-03-05 11:07:37.843 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceDigitalIO, 0
+2023-03-05 11:07:37.843 *nis* 3c04 Device 'IDeviceDigitalIO' not allowed in the HASP key.
+2023-03-05 11:07:37.844 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceTTLInput, 0
+2023-03-05 11:07:37.844 *nis* 3c04 Device 'IDeviceTTLInput' not allowed in the HASP key.
+2023-03-05 11:07:37.845 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceTTLOutput, 0
+2023-03-05 11:07:37.845 *nis* 3c04 Device 'IDeviceTTLOutput' not allowed in the HASP key.
+2023-03-05 11:07:37.846 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceRealTimeTTLInput, 0
+2023-03-05 11:07:37.846 *nis* 3c04 Device 'IDeviceRealTimeTTLInput' not allowed in the HASP key.
+2023-03-05 11:07:37.847 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceRealTimeAnalogInput, 0
+2023-03-05 11:07:37.847 *nis* 3c04 Device 'IDeviceRealTimeAnalogInput' not allowed in the HASP key.
+2023-03-05 11:07:37.848 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceAnalogInput, 0
+2023-03-05 11:07:37.848 *nis* 3c04 Device 'IDeviceAnalogInput' not allowed in the HASP key.
+2023-03-05 11:07:37.849 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceAnalogOutput, 0
+2023-03-05 11:07:37.849 *nis* 3c04 Device 'IDeviceAnalogOutput' not allowed in the HASP key.
+2023-03-05 11:07:37.850 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceCalibratedAnalogInput, 0
+2023-03-05 11:07:37.850 *nis* 3c04 Device 'IDeviceCalibratedAnalogInput' not allowed in the HASP key.
+2023-03-05 11:07:37.851 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceCalibratedAnalogOutput, 0
+2023-03-05 11:07:37.852 *nis* 3c04 Device 'IDeviceCalibratedAnalogOutput' not allowed in the HASP key.
+2023-03-05 11:07:37.853 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDevicePiezoXY, 0
+2023-03-05 11:07:37.853 *nis* 3c04 Device 'IDevicePiezoXY' not allowed in the HASP key.
+2023-03-05 11:07:37.854 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceMultiLaser, 1
+2023-03-05 11:07:37.855 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceSlideLoader, 0
+2023-03-05 11:07:37.855 *nis* 3c04 Device 'IDeviceSlideLoader' not allowed in the HASP key.
+2023-03-05 11:07:37.856 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceSlideLoader, 0
+2023-03-05 11:07:37.856 *nis* 3c04 Device 'IDeviceSlideLoader' not allowed in the HASP key.
+2023-03-05 11:07:37.857 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceMonochromator, 0
+2023-03-05 11:07:37.857 *nis* 3c04 Device 'IDeviceMonochromator' not allowed in the HASP key.
+2023-03-05 11:07:37.858 *nis* 3c04 CLxDeviceManager::EnableLogicalDeviceType IDeviceGalvoXY, 0
+2023-03-05 11:07:37.858 *nis* 3c04 Device 'IDeviceGalvoXY' not allowed in the HASP key.
+2023-03-05 11:07:37.874 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.874 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.875 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.875 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.876 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.876 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.877 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.877 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.878 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.878 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.879 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.879 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.880 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.880 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.881 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.881 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.882 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.882 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.883 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.883 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.884 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.884 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.885 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.885 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.886 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.886 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.887 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.887 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.888 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.888 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.889 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.889 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.890 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:07:37.891 *nis* 3c04 DMApi::Refresh() - begin
+2023-03-05 11:07:37.891 *nis* 3c04 DMApi::EnumVariables() - begin
+2023-03-05 11:07:37.891 *nis* 3c04 CLxDeviceDatabase::SetPFSType(0)
+2023-03-05 11:07:37.891 *nis* 3c04 DMApi::EnumVariables() - end
+2023-03-05 11:07:37.891 *nis* 3c04 DMApi::LogDevs_DispatchActivityChangeToApp() : 0 000000000498DBA0 000000000498EBA0 
+2023-03-05 11:07:37.975 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_baseui.dll") : OK
+2023-03-05 11:07:37.977 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:37.985 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:37.985 *nis* 3c04 DMApi::Refresh() - end
+2023-03-05 11:07:37.996 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:37.997 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:37.998 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxAgilentDevice, C:\Program Files\NIS-Elements\v6_w32_device_Agilent.dll)
+2023-03-05 11:07:37.998 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxDeviceIncubatorProxy, C:\Program Files\NIS-Elements\v6_w32_device_defaultimplementations.dll)
+2023-03-05 11:07:37.998 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxDevicePerfusionProxy, C:\Program Files\NIS-Elements\v6_w32_device_defaultimplementations.dll)
+2023-03-05 11:07:37.998 *nis* 3c04 CLxDeviceManager: Driver version OK. (CFIllum, C:\Program Files\NIS-Elements\v6_w32_device_fillum.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxPhysicalFromBuilder, C:\Program Files\NIS-Elements\v6_w32_device_FromDeviceBuilder.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxLumencorDevice, C:\Program Files\NIS-Elements\v6_w32_device_Lumencor.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxMCL_NanoDrive, C:\Program Files\NIS-Elements\v6_w32_device_MCL_NanoDrive.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CNIDAQDevice, C:\Program Files\NIS-Elements\v6_w32_device_NIDAQ.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxSpinningDiscDevice, C:\Program Files\NIS-Elements\v6_w32_device_SpinningDisc.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxSutterLambdaV210B, C:\Program Files\NIS-Elements\v6_w32_device_sutter_lambda_10B_v2.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CLxTI_newDevice, C:\Program Files\NIS-Elements\v6_w32_device_TI_new.dll)
+2023-03-05 11:07:37.999 *nis* 3c04 CLxDeviceManager: Driver version OK. (CZoomManual, C:\Program Files\NIS-Elements\v6_w32_device_zoom_manual.dll)
+2023-03-05 11:07:37.002 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_device_defaultimplementations.dll") : OK
+2023-03-05 11:07:38.002 *nis* 3c04 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_device_defaultimplementations.dll") : OK
+2023-03-05 11:07:38.013 *nis* 3c04 CLxDeviceManagerv2::DMv2_LoadInit() - begin
+2023-03-05 11:07:38.013 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowHelpersInSVG: 0
+2023-03-05 11:07:38.013 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowEasterEggEyes: 0
+2023-03-05 11:07:38.013 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue default PsychadelicMode: 0
+2023-03-05 11:07:38.013 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowEasterEasterEggPirateEyes: 0
+2023-03-05 11:07:38.013 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowFixSVGContextMenu: 0
+2023-03-05 11:07:38.015 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue default QMLTesting: 0
+2023-03-05 11:07:38.015 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::DMv2Load() - begin
+2023-03-05 11:07:38.015 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::DMv2Load() - end
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ DMv2Support::GetSetupName: Database id = 0 is invalid, aborting...
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::LoadSetup()
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::RefreshValidLightPaths() - begin
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::RefreshValidLightPaths() - searched (0.046600ms)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::ValidateLightPaths() - begin
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::ValidateLightPaths() - 1. phase (0.006800ms)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::ValidateLightPaths() - stimulation (0.000800ms)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::ValidateLightPaths() - LAPP check (0.000800ms)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::ValidateLightPaths() - Not Used by default (0.002600ms)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::ValidateLightPaths() - end
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::RefreshValidLightPaths() - validate (0.163800ms)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::UpdateLightPathTableAfterGraphChanged(1)
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::CreateLightPathTableFromData() - begin
+2023-03-05 11:07:38.017 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::FillWholeTableToDB() - begin
+2023-03-05 11:07:38.018 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::FillWholeTableToDB() - end
+2023-03-05 11:07:38.018 *nis* 3c04 _DMv2_ CLxOpticalPathContainer::RefreshValidLightPaths() - end (0.589600ms)
+2023-03-05 11:07:38.018 *nis* 3c04 Optical Configuration Save and Load is now enabled.
+2023-03-05 11:07:38.018 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - begin
+2023-03-05 11:07:38.018 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - end, res = 0
+2023-03-05 11:07:38.022 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:38.022 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:38.025 *nis* 3c04 CLxStimulationDeviceManager::UpdateStimulationLightpaths - begin
+2023-03-05 11:07:38.026 *nis* 3c04 CLxStimulationDeviceManager::UpdateStimulationLightpaths - begin, Current stimulation Lightpath ids: 
+2023-03-05 11:07:38.026 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::FixSelectedSystemLightpath
+2023-03-05 11:07:38.026 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:38.027 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:38.027 *nis* 3c04 _DMv2_ CLxOpticalPathDialog::SetLightPathRepresentationMemberOnly(1)
+2023-03-05 11:07:38.028 *nis* 3c04 CLxDeviceDBManager::RefreshCurrentLightpathCache: LightPathID=-1, LightPathGUIName=, LightPathUniqueName=, LightPathType=5
+2023-03-05 11:07:38.030 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:38.031 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:38.032 *nis* 3c04 CLxDeviceManagerv2::DMv2_LoadInit() - end
+2023-03-05 11:07:38.032 *nis* 3c04 Startup message : Creating elements...
+2023-03-05 11:07:38.260 *nis* 3c04 MAE: Clearing molecules table.
+2023-03-05 11:07:38.285 *nis* 3c04 STORM allowed
+2023-03-05 11:07:38.889 *nis* 3c04 DoSpecialStartup() - begin
+2023-03-05 11:07:38.940 *nis* 3c04 creating LutToolControl - 39.970200ms
+2023-03-05 11:07:39.064 *nis* 3c04 creating MoleculesControl - 123.526700ms
+2023-03-05 11:07:39.105 *nis* 3c04 creating AutoCaptureFolder - 41.183700ms
+2023-03-05 11:07:39.118 *nis* 3c04 creating ViewSynchroControl - 13.350400ms
+2023-03-05 11:07:39.129 *nis* 3c04 creating ViewVariablesControl - 10.209500ms
+2023-03-05 11:07:39.151 *nis* 3c04 creating CommandHistoryControl - 22.011100ms
+2023-03-05 11:07:39.182 *nis* 3c04 creating BinLayerControl - 31.601500ms
+2023-03-05 11:07:39.209 *nis* 3c04 creating BinLayerDocked - 26.948800ms
+2023-03-05 11:07:39.229 *nis* 3c04 creating DebugView - 19.002300ms
+2023-03-05 11:07:39.287 *nis* 3c04 creating ObjectCount - 58.537000ms
+2023-03-05 11:07:39.387 *nis* 3c04 creating Classifier - 99.915500ms
+2023-03-05 11:07:39.424 *nis* 3c04 creating SystemInfo - 36.734900ms
+2023-03-05 11:07:39.463 *nis* 3c04 creating Thresholding - 39.243700ms
+2023-03-05 11:07:39.503 *nis* 3c04 creating ThresholdingSecond - 39.210800ms
+2023-03-05 11:07:39.517 *nis* 3c04 creating EditBinaryTool - 14.140100ms
+2023-03-05 11:07:39.517 *nis* 3c04 Opening NIS Elements Database at C:\ProgramData\Laboratory Imaging\NisProjDb\nisprojdb_5_10.dat
+2023-03-05 11:07:39.524 *nis* 3c04 Success
+2023-03-05 11:07:39.536 *nis* 3c04 creating AnalysisExplorer - 18.770500ms
+2023-03-05 11:07:39.554 *nis* 3c04 creating ROIStatisticsControl - 18.582100ms
+2023-03-05 11:07:39.564 *nis* 3c04 creating VolumeMeasurementControl - 9.787500ms
+2023-03-05 11:07:39.565 *nis* 3c04 creating PanningControl - 0.770600ms
+2023-03-05 11:07:39.565 *nis* 3c04 creating m_pHWTriggeringElement - 0.130900ms
+2023-03-05 11:07:39.573 *nis* 3c04 creating m_pSequenceElement - 7.743600ms
+2023-03-05 11:07:39.573 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_MetrologyWizard_Zoom_Model::Update(): begin
+2023-03-05 11:07:39.574 *nis* 3c04 creating m_pG5Controls - 0.796600ms
+2023-03-05 11:07:39.634 *nis* 3c04 creating AVISetupControl - 60.096000ms
+2023-03-05 11:07:39.665 *nis* 3c04 creating Segmentation - 30.992400ms
+2023-03-05 11:07:39.714 *nis* 3c04 creating SpectrumProfile - 48.686200ms
+2023-03-05 11:07:39.717 *nis* 3c04 creating AutoMeasCtrl - 0.643300ms
+2023-03-05 11:07:39.725 *nis* 3c04 creating EditBinaryTool - 7.636100ms
+2023-03-05 11:07:39.742 *nis* 3c04 creating Restrictions - 16.820100ms
+2023-03-05 11:07:39.763 *nis* 3c04 creating DMDockerCtrl - 0.228400ms
+2023-03-05 11:07:39.790 *nis* 3c04 Qt Debug: AcquisitionPad Completed
+2023-03-05 11:07:39.790 *nis* 3c04 Qt Debug: OptConf buttons created
+2023-03-05 11:07:39.790 *nis* 3c04 Qt Debug: Lightpath Bar created (width:0, height:32)
+2023-03-05 11:07:39.791 *nis* 3c04 Qt Debug: AcquisitionPad  visible:  true
+2023-03-05 11:07:39.791 *nis* 3c04 creating AcquisitionPad - 27.481100ms
+2023-03-05 11:07:39.799 *nis* 3c04 creating OpenedViews - 8.726600ms
+2023-03-05 11:07:39.814 *nis* 3c04 creating ShadingCorections - 14.438100ms
+2023-03-05 11:07:39.845 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:39.846 *nis* 3c04 creating ShadingCorectionElement - 31.636900ms
+2023-03-05 11:07:39.846 *nis* 3c04 creating ObjectTracking - 0.004800ms
+2023-03-05 11:07:39.846 *nis* 3c04 creating VolumeViewControl - 0.460500ms
+2023-03-05 11:07:39.885 *nis* 3c04 creating ZLutsControl - 38.603700ms
+2023-03-05 11:07:39.911 *nis* 3c04 creating GradientOpacityControl - 26.279600ms
+2023-03-05 11:07:39.911 *nis* 3c04 creating LiveDenoiseDeconvolution - 0.170500ms
+2023-03-05 11:07:39.978 *nis* 3c04 creating AutoMeasResults - 66.832100ms
+2023-03-05 11:07:39.992 *nis* 3c04 creating ObjectCatalog - 13.220000ms
+2023-03-05 11:07:40.075 *nis* 3c04 MP ZStack: 21 Steps, Home Relative, Range 20.00µm, r.left 100 r.right 344 sizeLoop.cx 240 
+
+2023-03-05 11:07:40.078 *nis* 3c04 creating MultipointSet - 86.152300ms
+2023-03-05 11:07:40.231 *nis* 3c04 HWND: 70532, X: 65, Y: 14
+2023-03-05 11:07:40.231 *nis* 3c04 HWND: 90512, X: 65, Y: 14
+2023-03-05 11:07:40.232 *nis* 3c04 HWND: 7053a, X: 65, Y: 14
+2023-03-05 11:07:40.459 *nis* 3c04 creating NDAcquisition - 381.572900ms
+2023-03-05 11:07:40.584 *nis* 3c04 creating NDStimulation - 124.020200ms
+2023-03-05 11:07:40.615 *nis* 3c04 creating NDAcquisitionHistory - 31.130200ms
+2023-03-05 11:07:40.620 *nis* 3c04 creating CustomAcquisition - 5.398700ms
+2023-03-05 11:07:40.646 *nis* 3c04 creating NDSequence - 25.877400ms
+2023-03-05 11:07:40.647 *nis* 3c04 OpticalPathsCorrections system Uuid: f75b474b378b4fbe8c511f7659f89f1f - 0.285600ms
+2023-03-05 11:07:40.647 *nis* 3c04 creating m_pAddons - 0.134900ms
+2023-03-05 11:07:40.752 *nis* 3c04 creating ManualMeasurement - 104.726100ms
+2023-03-05 11:07:41.149 *nis* 3c04 Qt Debug: Distance Measurement - LOAD BEGIN
+2023-03-05 11:07:41.151 *nis* 3c04 Qt Debug: Distance Measurement - LOAD END
+2023-03-05 11:07:41.152 *nis* 3c04 creating DistanceMeasurement - 400.821000ms
+2023-03-05 11:07:41.154 *nis* 3c04 creating AIExplorer - 1.684900ms
+2023-03-05 11:07:41.175 *nis* 3c04 creating BasicLUTs - 20.890000ms
+2023-03-05 11:07:41.175 *nis* 3c04 Qt Debug: CONSTRUCT CLxBasicIntensityProfile
+2023-03-05 11:07:41.185 *nis* 3c04 creating BasicIntensityProfile - 10.054500ms
+2023-03-05 11:07:41.185 *nis* 3c04 Qt Debug: CONSTRUCT CLxBasicROIStatistics
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.212 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:41.213 *nis* 3c04 creating BasicROIStatistics - 28.007600ms
+2023-03-05 11:07:41.213 *nis* 3c04 Qt Debug: CONSTRUCT CLxBasicMeasurements
+2023-03-05 11:07:41.247 *nis* 3c04 CLxApplicationAPI::loadJSONFromDB(GUIElementSettings_BasicMeasurements_Nikon TIRF-SDC): Begin
+2023-03-05 11:07:41.247 *nis* 3c04 CLxApplicationAPI::loadJSONFromDB: end, success = true
+2023-03-05 11:07:41.260 *nis* 3c04 creating BasicMeasurements - 47.072000ms
+2023-03-05 11:07:41.265 *nis* 3c04 Qt Debug: Shortcuts created
+2023-03-05 11:07:41.266 *nis* 3c04 creating ShortcutsElement - 5.460400ms
+2023-03-05 11:07:41.266 *nis* 3c04 creating m_pFeatureGraphExport - 0.009100ms
+2023-03-05 11:07:41.297 *nis* 3c04 creating TimeSeriesGraph - 31.048000ms
+2023-03-05 11:07:41.313 *nis* 3c04 creating OptConfElement - 15.950500ms
+2023-03-05 11:07:41.333 *nis* 3c04 creating ControlsElement - 19.895500ms
+2023-03-05 11:07:41.361 *nis* 3c04 creating InOutElement - 27.307800ms
+2023-03-05 11:07:41.377 *nis* 3c04 creating MacroElement - 16.301200ms
+2023-03-05 11:07:41.404 *nis* 3c04 creating CaptureSaveElement - 26.883800ms
+2023-03-05 11:07:41.529 *nis* 3c04 creating New_Ml_InitNewTimeMeas - 82.007000ms
+2023-03-05 11:07:41.649 *nis* 3c04 creating New_Ml_InitProfiles - 120.235700ms
+2023-03-05 11:07:41.688 *nis* 3c04 creating New_Ml_InitColoc - 38.745200ms
+2023-03-05 11:07:41.720 *nis* 3c04 creating New_Ml_InitNewHisto - 32.462400ms
+2023-03-05 11:07:41.720 *nis* 3c04 creating Init_New_Ml_Elements - 273.740300ms
+2023-03-05 11:07:41.726 *nis* 3c04 creating m_pExportConf - 5.887100ms
+2023-03-05 11:07:41.726 *nis* 3c04 DoSpecialStartup() - end - 2837.394900ms
+2023-03-05 11:07:41.726 *nis* 3c04 Startup message : Creating organizer...
+2023-03-05 11:07:41.919 *nis* 3c04 Startup message : Preparing layout...
+2023-03-05 11:07:42.065 *nis* 3c04 Font Zoom: 1.00
+2023-03-05 11:07:42.182 *nis* 3c04 Qt Warning: ERROR: QQuickStyle::setStyle() must be called before loading QML that imports Qt Quick Controls 2.
+2023-03-05 11:07:42.558 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:42.701 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:42.722 *nis* 3c04 CLxHWTriggeringElement::UpdateCameraAccordingToLightpath: Unable to update camera, no generic.
+2023-03-05 11:07:42.767 *nis* 3c04 CLxSequenceElement::LoadFromLiteVariant - begin
+2023-03-05 11:07:42.769 *nis* 3c04 CLxSequenceElement::LoadFromLiteVariant() - end
+2023-03-05 11:07:42.809 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:07:42.809 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.809 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:07:42.809 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.827 *nis* 3c04 CLxSequenceElement::LoadFromLiteVariant - begin
+2023-03-05 11:07:42.917 *nis* 3c04 CLxSequenceElement::LoadFromLiteVariant() - end
+2023-03-05 11:07:42.917 *nis* 3c04 CLxSequenceElement::LoadCamFromLiteVariant - begin
+2023-03-05 11:07:42.917 *nis* 3c04 CLxSequenceElement::LoadFromLiteVariant() - end
+2023-03-05 11:07:42.954 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:07:42.954 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.954 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:07:42.955 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.968 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:07:42.969 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.969 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:07:42.969 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.983 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:07:42.983 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.983 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:07:42.983 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.997 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:07:42.997 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:42.997 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:07:42.997 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:43.034 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:43.059 *nis* 3c04 Startup message : Showing GUI...
+2023-03-05 11:07:43.167 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.167 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.167 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.167 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.167 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.167 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.168 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.168 *nis* 3c04 Qt Debug: void __cdecl QCPLayer::drawToPaintBuffer(void) no valid paint buffer associated with this layer
+2023-03-05 11:07:43.701 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:43.787 *nis* 3c04 CLxDeviceManagerv2::FinalizeInit() - begin
+2023-03-05 11:07:43.787 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::Init() - begin
+2023-03-05 11:07:43.787 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::Init() - #1
+2023-03-05 11:07:43.787 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_PadProperties::CLxDeviceManagerv2_PadProperties(): Creating dialog properties.
+2023-03-05 11:07:43.915 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowHelpersInSVG: 0
+2023-03-05 11:07:43.915 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowEasterEggEyes: 0
+2023-03-05 11:07:43.915 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowEasterEasterEggPirateEyes: 0
+2023-03-05 11:07:43.916 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue default PsychadelicMode: 0
+2023-03-05 11:07:43.916 *nis* 3c04 _DMv2_ DMv2Support::GetRegistryValue read ShowFixSVGContextMenu: 0
+2023-03-05 11:07:43.916 *nis* 3c04 _DMv2_ CLxOpticalPathDialog::FitToScreen(0, 0, 0.01)
+2023-03-05 11:07:43.918 *nis* 3c04 _DMv2_ CLxOpticalPathDialog::SetLightPathRepresentationMemberOnly(1)
+2023-03-05 11:07:43.919 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::Init() - #2
+2023-03-05 11:07:43.919 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::PruneRevisionHistoryEntries() - begin
+2023-03-05 11:07:44.028 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::PruneRevisionHistoryEntries() - end, beginning rev history size: 760.42 MB, end rev history size: 760.42 MB, begin revision count: 12, end revision count: 12, manual revision count: 0
+2023-03-05 11:07:44.047 *nis* 3c04 CLxDeviceDBManager::RefreshCurrentLightpathCache: LightPathID=-1, LightPathGUIName=, LightPathUniqueName=, LightPathType=5
+2023-03-05 11:07:44.066 *nis* 3c04 DMApi::Refresh() - ignored
+2023-03-05 11:07:44.098 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:44.110 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:44.124 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:44.129 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:44.175 *nis* 3c04 CLxStimulationDeviceManager::UpdateStimulationLightpaths - begin
+2023-03-05 11:07:44.175 *nis* 3c04 CLxStimulationDeviceManager::UpdateStimulationLightpaths - begin, Current stimulation Lightpath ids: 
+2023-03-05 11:07:44.178 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::FixSelectedSystemLightpath
+2023-03-05 11:07:44.178 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_LightPathModel::Update(-1, -1)
+2023-03-05 11:07:44.179 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_LightPathModel::Update(-1, -1)
+2023-03-05 11:07:44.180 *nis* 3c04 CLxDeviceManagerv2::SetCurrentLightPath(0, , 0, 1, 1, 1, 0) - begin
+2023-03-05 11:07:44.185 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:44.197 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:44.211 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:44.215 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:44.260 *nis* 3c04 CLxDeviceManagerv2::SetCurrentLightPath - end
+2023-03-05 11:07:44.260 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_LightPathModel::Update(-1, -1)
+2023-03-05 11:07:44.261 *nis* 3c04 _DMv2_ CLxDeviceManagerv2_LightPathModel::Update(-1, -1)
+2023-03-05 11:07:44.288 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:07:44.288 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:44.289 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:07:44.289 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:07:44.302 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:44.314 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:44.319 *nis* 3c04 _DMv2_ CLxOpticalPathDialog::SetLightPathRepresentationMemberOnly(1)
+2023-03-05 11:07:44.319 *nis* 3c04 _DMv2_ CLxOpticalPathDialog::FitToScreen(0, 0, 0.01)
+2023-03-05 11:07:44.320 *nis* 3c04 CLxDeviceManagerv2::ClearColorForCameraPerChannelCache - begin
+2023-03-05 11:07:44.320 *nis* 3c04 CLxDeviceManagerv2::ClearColorForCameraPerChannelCache - end
+2023-03-05 11:07:44.320 *nis* 3c04 _DMv2_ CLxDeviceManagerv2::Init() - end
+2023-03-05 11:07:44.320 *nis* 3c04 CLxDeviceManagerv2::FinalizeInit() - end
+2023-03-05 11:07:44.509 *nis* 3c04 _DMv2_ CLxOpticalConfigurationModel::Update(OptConfButtons, false, true, false, false, -1, false)
+2023-03-05 11:07:44.510 *nis* 3c04 _DMv2_ CLxOpticalConfigurationModel::Update(OptConfButtons, false, true, false, false, -1, false)
+2023-03-05 11:07:44.510 *nis* 3c04 CLxHWTriggeringElement::UpdateCameraAccordingToLightpath: Unable to update camera, no generic.
+2023-03-05 11:07:44.511 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:44.900 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared layouts - TRUE
+2023-03-05 11:07:44.907 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared layouts - TRUE
+2023-03-05 11:07:44.911 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared layouts - TRUE
+2023-03-05 11:07:45.037 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:45.050 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:45.150 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.252 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:45.265 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:45.355 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.358 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - begin
+2023-03-05 11:07:45.358 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - end, res = 0
+2023-03-05 11:07:45.358 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - begin
+2023-03-05 11:07:45.358 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - end, res = 0
+2023-03-05 11:07:45.398 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - begin
+2023-03-05 11:07:45.398 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - end, res = 0
+2023-03-05 11:07:45.455 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.455 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.513 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.514 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.572 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.572 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.630 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.630 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.690 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.690 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.748 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.748 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.783 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.784 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.785 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.800 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.806 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:45.859 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - begin
+2023-03-05 11:07:45.859 *nis* 3c04 SLxOpticalConfigs::LoadFromDatabase - end, res = 0
+2023-03-05 11:07:45.859 *nis* 3c04 LX_MessageBox lpText = Optical Configurations Import succesfully finished. lpCaption = Import Optical Configurations
+2023-03-05 11:07:45.879 *nis* 3c04 _DMv2_ CLxOpticalConfigurationModel::Update(OptConfButtons, false, true, false, false, -1, false)
+2023-03-05 11:07:45.880 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:47.362 *nis* 3c04 LX_MessageBox return value = 1
+2023-03-05 11:07:47.369 *nis* 3c04 Protocol_Commands("RunMacro("d:\green microscope users\admin\startup macro.mac");")
+2023-03-05 11:07:47.373 *nis* 3c04 WinMain() - Phase #03 (before main message loop) - 11:07:47 - 12982.20
+2023-03-05 11:07:59.042 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:59.055 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:59.145 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:07:59.857 *nis* 3c04 StgRecreateDevicePopUpMenu() - begin
+2023-03-05 11:07:59.870 *nis* 3c04 StgRecreateDevicePopUpMenu() - end
+2023-03-05 11:07:59.961 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:08:11.488 *nis* 3c04 CLxDeviceManagerv2::AppRntm_HandleEvent - LX_MODULEEVENT_APP_ASKTOEXIT_AFTER - begin
+2023-03-05 11:08:11.490 *nis* 3cc4 Device Database connection opened: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-05 11:08:11.654 *nis* 3cc4 Qt Warning: QSqlDatabasePrivate::removeDatabase: connection 'DeviceDatabaseBackup' is still in use, all queries will cease to work.
+2023-03-05 11:08:11.883 *nis* 3cc4 Device Database connection closed: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-05 11:08:11.885 *nis* 3c04 CLxDeviceManagerv2::AppRntm_HandleEvent - LX_MODULEEVENT_APP_ASKTOEXIT_AFTER - end
+2023-03-05 11:08:11.909 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared optical configurations - TRUE
+2023-03-05 11:08:11.926 *nis* 3c04 Protocol_Commands("CloseAllDocuments(0);")
+2023-03-05 11:08:12.020 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x5323d5c0) , parent:  QWindow(0x5352b8e0) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.204 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x521a6130) , parent:  QWindow(0x5207aae0) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.206 *nis* 3c04 CLxSequenceElement::SaveToLiteVariant - begin
+2023-03-05 11:08:12.206 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:08:12.207 *nis* 3c04 CLxSequenceElement::SaveCamToLiteVariant - begin
+2023-03-05 11:08:12.207 *nis* 3c04 CLxSequenceElement::SaveSequence() - end
+2023-03-05 11:08:12.212 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x4d70d950) , parent:  QWindow(0x4d786ed0) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.237 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x521a8eb0) , parent:  QWindow(0x5301d450) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.238 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x52199d30) , parent:  QWindow(0x531c0730) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.238 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x521a5410) , parent:  QWindow(0x51c9d760) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.344 *nis* 3c04 Qt Warning: External WM_DESTROY received for  CLxStandardGUIElement_QMLTYPE_84(0x4d02f640) , parent:  QWindow(0x4d475540) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.522 *nis* 3c04 Qt Warning: External WM_DESTROY received for  DocumentTabs_QMLTYPE_72(0x43c91510) , parent:  QWindow(0x486d46b0) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.523 *nis* 3c04 Qt Warning: External WM_DESTROY received for  TitleBarRight_QMLTYPE_66(0x43c92690) , parent:  QWindow(0x4125f720) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.523 *nis* 3c04 Qt Warning: External WM_DESTROY received for  QQuickApplicationWindow(0x43c92d90) , parent:  QWindow(0x4125ab90) , transient parent:  QWindow(0x0)
+2023-03-05 11:08:12.548 *nis* 3c04 Qt Debug: Distance Measurement - SAVE BEGIN
+2023-03-05 11:08:12.549 *nis* 3c04 Qt Debug: Distance Measurement - SAVE END
+2023-03-05 11:08:12.582 *nis* 3c04 WinMain() - Phase #04 (after main message loop) - 11:08:12 - 25209.34
+2023-03-05 11:08:13.084 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify devices - TRUE
+2023-03-05 11:08:13.085 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared calibrations - TRUE
+2023-03-05 11:08:13.190 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared layouts - TRUE
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - begin
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker1
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker2
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker3
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker4
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker5
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker6
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker7
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker8
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control1: unique name BasicLUTs
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control2: unique name Stage Overview
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control3: unique name BasicROIStatistics
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control4: unique name BasicIntensityProfile
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control5: unique name BasicMeasurements
+2023-03-05 11:08:13.190 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control6: unique name ShortcutsElement
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control7: unique name DMDockerCtrl
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar1: unique name 
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar2: unique name ApplicationsPopup
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar3: unique name LeftTopToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar4: unique name LeftToolbar5
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar5: unique name ToolsToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar6: unique name OptConfToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar7: unique name OptConfButtonsToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar8: unique name Controls
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar9: unique name ApplicationMainMenu
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar10: unique name PictureContextMenu
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar11: unique name DatabasePopup
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar12: unique name DevicePopup
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar13: unique name CameraPopup
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar14: unique name PicToolbarRight
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar15: unique name PicToolsToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar16: unique name PicToolsToolbarEx
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar17: unique name PicNDToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar18: unique name ToolbarTopRight
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar19: unique name Camera
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar20: unique name SpectralToolbar
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - end
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - begin
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker1
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker2
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker3
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker4
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker5
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker6
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker7
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker8
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control1: unique name AnalysisExplorer
+2023-03-05 11:08:13.191 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control2: unique name ManualMeasurement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control3: unique name AutoCaptureFolder
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control4: unique name AutoMeasCtrl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control5: unique name AutoMeasResults
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control6: unique name BasicIntensityProfile
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control7: unique name BasicMeasurements
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control8: unique name BasicROIStatistics
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control9: unique name Batch GA3
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control10: unique name DistributedBatchGa3
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control11: unique name BinaryLayers
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control12: unique name EditBinaryTool
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control13: unique name CaptureSaveElement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control14: unique name Colocalization
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control15: unique name CommandHistoryControl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control16: unique name ControlsElement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control17: unique name DebugView
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control18: unique name DistanceMeasurement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control19: unique name GradientOpacityControl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control20: unique name HistoToolControl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control21: unique name IlluminationSequence
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control22: unique name IntensityProfile
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control23: unique name DMv2Pad
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control24: unique name LutToolControl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control25: unique name BasicLUTs
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control26: unique name MacroElement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control27: unique name MoleculesAnalysisControl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control28: unique name MoleculesControl
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control29: unique name N-STORM
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control30: unique name NDAcquisitionHistory
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control31: unique name InOutElement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control32: unique name CustomAcquisition
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control33: unique name MultipointSet
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control34: unique name NDSequence
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control35: unique name ObjectCatalog
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control36: unique name ObjectCount
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control37: unique name OptConfElement
+2023-03-05 11:08:13.192 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control38: unique name OpenedViews
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control39: unique name DBPane
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control40: unique name Classifier
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control41: unique name PanningControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control42: unique name Restrictions
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control43: unique name ROIStatisticsControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control44: unique name ShadingCorectionElement
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control45: unique name ShortcutsElement
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control46: unique name SpectrumProfile
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control47: unique name ViewSynchroControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control48: unique name SystemInfo
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control49: unique name Thresholding
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control50: unique name TimeMeasurementControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control51: unique name TimeSeriesGraph
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control52: unique name HWTriggeringControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control53: unique name ViewVariablesControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control54: unique name VolumeMeasurementControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control55: unique name VolumeViewControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control56: unique name XYOverview
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control57: unique name ZLutsControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control58: unique name DMDockerCtrl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control59: unique name AOTF
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control60: unique name AVISetupControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control61: unique name CSU
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control62: unique name FiltersShuttersGUIControlFiltered
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control63: unique name FiltersShuttersGUIControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control64: unique name InputSetupFormControl_2
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control65: unique name ScanAreaControl_2
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control66: unique name NDAcquisition
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control67: unique name NDStimulation
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control68: unique name DeviceMicPadControlFull
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control69: unique name DeviceMicPadControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control70: unique name StageGUIControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control71: unique name ZStackGUIControl
+2023-03-05 11:08:13.193 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control72: unique name InputSetupFormControl
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control73: unique name ScanAreaControl_1
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control74: unique name 3dObjectManagementControl
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control75: unique name Capture FRET Image
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control76: unique name ZProfile
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control77: unique name Live2DWienerDeconvControl
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control78: unique name LiveDenoiseDeconvolution
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control79: unique name AIExplorer
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control80: unique name ObjectClassifier
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control81: unique name PolarGraph
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control82: unique name RTEDFElem
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control83: unique name ObjectTracking
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control84: unique name TrackBinariesControl
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control85: unique name MLC400 Pad
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar1: unique name ApplicationsPopup
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar2: unique name LeftTopToolbar
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar3: unique name LeftToolbar5
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar4: unique name ToolsToolbar
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar5: unique name OptConfToolbar
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar6: unique name OptConfButtonsToolbar
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar7: unique name Controls
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar8: unique name ApplicationMainMenu
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar9: unique name PictureContextMenu
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar10: unique name DatabasePopup
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar11: unique name DevicePopup
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar12: unique name CameraPopup
+2023-03-05 11:08:13.194 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar13: unique name PicToolbarRight
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar14: unique name PicToolsToolbar
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar15: unique name PicToolsToolbarEx
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar16: unique name PicNDToolbar
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar17: unique name ToolbarTopRight
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar18: unique name Camera
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar19: unique name SpectralToolbar
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar20: unique name 
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - end
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - begin
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker1
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker2
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker3
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker4
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker5
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker6
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker7
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker8
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control1: unique name AnalysisExplorer
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control2: unique name ManualMeasurement
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control3: unique name AutoCaptureFolder
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control4: unique name AutoMeasCtrl
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control5: unique name AutoMeasResults
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control6: unique name BasicIntensityProfile
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control7: unique name BasicMeasurements
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control8: unique name BasicROIStatistics
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control9: unique name Batch GA3
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control10: unique name DistributedBatchGa3
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control11: unique name BinaryLayers
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control12: unique name EditBinaryTool
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control13: unique name CaptureSaveElement
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control14: unique name Colocalization
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control15: unique name CommandHistoryControl
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control16: unique name ControlsElement
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control17: unique name DebugView
+2023-03-05 11:08:13.195 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control18: unique name DistanceMeasurement
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control19: unique name GradientOpacityControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control20: unique name HistoToolControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control21: unique name IlluminationSequence
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control22: unique name IntensityProfile
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control23: unique name DMv2Pad
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control24: unique name LutToolControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control25: unique name BasicLUTs
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control26: unique name MacroElement
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control27: unique name MoleculesAnalysisControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control28: unique name MoleculesControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control29: unique name N-STORM
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control30: unique name NDAcquisitionHistory
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control31: unique name InOutElement
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control32: unique name CustomAcquisition
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control33: unique name MultipointSet
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control34: unique name NDSequence
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control35: unique name ObjectCatalog
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control36: unique name ObjectCount
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control37: unique name OptConfElement
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control38: unique name OpenedViews
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control39: unique name DBPane
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control40: unique name Classifier
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control41: unique name PanningControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control42: unique name Restrictions
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control43: unique name ROIStatisticsControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control44: unique name ShadingCorectionElement
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control45: unique name ShortcutsElement
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control46: unique name SpectrumProfile
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control47: unique name ViewSynchroControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control48: unique name SystemInfo
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control49: unique name Thresholding
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control50: unique name TimeMeasurementControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control51: unique name TimeSeriesGraph
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control52: unique name HWTriggeringControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control53: unique name ViewVariablesControl
+2023-03-05 11:08:13.196 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control54: unique name VolumeMeasurementControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control55: unique name VolumeViewControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control56: unique name XYOverview
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control57: unique name ZLutsControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control58: unique name DMDockerCtrl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control59: unique name AOTF
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control60: unique name AVISetupControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control61: unique name CSU
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control62: unique name FiltersShuttersGUIControlFiltered
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control63: unique name FiltersShuttersGUIControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control64: unique name InputSetupFormControl_2
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control65: unique name ScanAreaControl_2
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control66: unique name NDAcquisition
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control67: unique name NDStimulation
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control68: unique name DeviceMicPadControlFull
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control69: unique name DeviceMicPadControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control70: unique name StageGUIControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control71: unique name ZStackGUIControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control72: unique name InputSetupFormControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control73: unique name ScanAreaControl_1
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control74: unique name 3dObjectManagementControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control75: unique name Capture FRET Image
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control76: unique name ZProfile
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control77: unique name Live2DWienerDeconvControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control78: unique name LiveDenoiseDeconvolution
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control79: unique name AIExplorer
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control80: unique name ObjectClassifier
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control81: unique name PolarGraph
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control82: unique name RTEDFElem
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control83: unique name ObjectTracking
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control84: unique name TrackBinariesControl
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control85: unique name MLC400 Pad
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar1: unique name ApplicationsPopup
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar2: unique name LeftTopToolbar
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar3: unique name LeftToolbar5
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar4: unique name ToolsToolbar
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar5: unique name OptConfToolbar
+2023-03-05 11:08:13.197 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar6: unique name OptConfButtonsToolbar
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar7: unique name Controls
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar8: unique name ApplicationMainMenu
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar9: unique name PictureContextMenu
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar10: unique name DatabasePopup
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar11: unique name DevicePopup
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar12: unique name CameraPopup
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar13: unique name PicToolbarRight
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar14: unique name PicToolsToolbar
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar15: unique name PicToolsToolbarEx
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar16: unique name PicNDToolbar
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar17: unique name ToolbarTopRight
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar18: unique name Camera
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar19: unique name SpectralToolbar
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar20: unique name 
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - end
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - begin
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker1
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker2
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker3
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker4
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker5
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker6
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker7
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Docker8
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control1: unique name DMDockerCtrl
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control2: unique name HistoToolControl
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control3: unique name IntensityProfile
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control4: unique name LutToolControl
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control5: unique name ROIStatisticsControl
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control6: unique name ManualMeasurement
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Control7: unique name TimeMeasurementControl
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar1: unique name ApplicationsPopup
+2023-03-05 11:08:13.198 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar2: unique name LeftTopToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar3: unique name LeftToolbar5
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar4: unique name ToolsToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar5: unique name OptConfToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar6: unique name OptConfButtonsToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar7: unique name Controls
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar8: unique name ApplicationMainMenu
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar9: unique name PictureContextMenu
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar10: unique name DatabasePopup
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar11: unique name DevicePopup
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar12: unique name CameraPopup
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar13: unique name PicToolbarRight
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar14: unique name PicToolsToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar15: unique name PicToolsToolbarEx
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar16: unique name PicNDToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar17: unique name ToolbarTopRight
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar18: unique name Camera
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar19: unique name SpectralToolbar
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - saving Toolbar20: unique name 
+2023-03-05 11:08:13.199 *nis* 3c04 SOneLayout::SaveLayoutToLiteVariant - end
+2023-03-05 11:08:13.364 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify devices - TRUE
+2023-03-05 11:08:13.502 *nis* 3c04 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-05 11:08:13.552 *nis* 3c04 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-05 11:08:13.562 *nis* 3c04 Device Database connection closed: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-05 11:08:13.563 *nis* 3c04 Qt Debug: MxNet::NetworkManager::freeNetworks
+2023-03-05 11:08:13.666 *nis* 3c04 App modules logout start
+2023-03-05 11:08:13.668 *nis* 3c04 App modules logout finish
+2023-03-05 11:08:13.674 *nis* 3c04 Qt Debug: DESTRUCT CLxBasicMeasurements
+2023-03-05 11:08:13.674 *nis* 3c04 CLxUserManager::GetCurrentUserRights - modify shared layouts - TRUE
+2023-03-05 11:08:13.674 *nis* 3c04 CLxApplicationAPI::saveJSONToDB(GUIElementSettings_BasicMeasurements_Nikon TIRF-SDC): Begin
+2023-03-05 11:08:13.674 *nis* 3c04 CLxApplicationAPI::saveSettingsToDB: end, success = true
+2023-03-05 11:08:13.674 *nis* 3c04 CLxApplicationAPI::saveJSONToDB(GUIElementSettings_BasicMeasurements_shared): Begin
+2023-03-05 11:08:13.674 *nis* 3c04 CLxApplicationAPI::saveSettingsToDB: end, success = true
+2023-03-05 11:08:13.679 *nis* 3c04 Qt Debug: DESTRUCT CLxBasicROIStatistics
+2023-03-05 11:08:13.680 *nis* 3c04 Qt Debug: DESTRUCT CLxBasicIntensityProfile
+2023-03-05 11:08:13.682 *nis* 3c04 Application result: OK - Finished
+2023-03-05 11:08:13.683 *nis* 3c04 WinMain() - Phase #05 (application end) - 11:08:13 - 1101.10
+2023-03-05 11:08:13.683 *nis* 3c04 Qt Warning: QObject::killTimer: Timers cannot be stopped from another thread
+2023-03-05 11:08:13.693 *nis* 3c04 WRAP:CLxWin3264Wrap::Disconnect - successfully disconnected

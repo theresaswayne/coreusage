@@ -1,0 +1,7 @@
+Data Audit Trail
+
+Date,User,Event,Comment
+3/11/2019 4:51:04 PM,User,Protocol "C:\Users\Public\Documents\Admin\2019-03-11 test imaging time\20190311 test imaging time protocol 2.prt" (3/11/2019 4:50:54 PM) selected,
+3/11/2019 4:53:28 PM,User,Plate read started,
+3/11/2019 5:00:35 PM,User,Plate read warning "One or more images were not read within the expected kinetic interval",
+3/11/2019 6:30:46 PM,User,Plate read successfully completed,

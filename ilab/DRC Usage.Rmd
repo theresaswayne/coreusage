@@ -1,0 +1,89 @@
+---
+title: "Usage of the Confocal SR by Diabetes Research Center Members"
+output:
+  html_document:
+    df_print: paged
+    self_contained: true #stores images with the html
+  word_document: default
+  pdf_document: default
+  html_notebook: default
+---
+
+# Purpose
+
+To find out the usage of the SR by certain labs, excluding non-instrument categories (lenses, TC hood).
+
+# Input
+
+Paths to these files need to be supplied in the script. 
+
+1. Source data file from iLab. Each row in the table represents one reservation or billed service request.
+
+2. A list of users of interest, in CSV format. One column must be headed "PI Email" and contain the emails used in iLab.  It is helpful if this also has the PI names.
+
+# Output
+
+A CSV file containing a table of total usage by lab, including PI Email and total hours of instrument and service usage during the time period specified.
+
+# Limitations
+
+The PI Emails must match between the user list and the iLab report.
+Each lab member must have the same PI email.
+To sort the final table by PI name, there must be a column in the user list called "PI Last".
+
+
+```{r setup, message=FALSE, warning=FALSE, results='hide'}
+library(dplyr)
+library(readr)
+
+datapath <- "/Users/theresaswayne/Desktop/2021-11\ DRC\ usage/"
+usagefile <- "06302018_06302021_charges_report_source_data_4996083377.csv"
+userfile <- "DRC user list.csv"
+usage <- read_csv(file.path(datapath, usagefile), show_col_types = FALSE)
+userlist <- read_csv(file.path(datapath, userfile), show_col_types = FALSE)
+```
+
+# Selecting the users of interest
+
+Select all of the usage events containing matching PI Email values in the user list. Note that the column names must be identical and the user emails must be identical. 
+
+``` {r select users, message=FALSE, warning=FALSE, results='hide'}
+
+usage_drc <- inner_join(usage, userlist)
+```
+# Selecting the usage events of interest
+
+Remove the non-equipment usage (special lenses and TC Hood) which should not be included in hours of usage, since they are not equipment or services.
+
+Total the hours of use by each PI.
+
+Merge the table of usage with the original user list. If the user list had PI last names, they will become part of the final table, and the table will be sorted by last name.
+
+Re-order the columns to be more readable.
+
+```{r calculate}
+usage_drc_filt <- dplyr::filter(usage_drc,!grepl("Lenses|Hood", `Charge Name`)) %>%
+  group_by(`PI Email`) %>% 
+  summarise(Hours = sum(Quantity))
+usage_merge <- inner_join(usage_drc_filt,userlist)
+
+if("PI Last" %in% colnames(usage_merge))
+{
+  usage_merge <- arrange(usage_merge, `PI Last`) %>% # arrange instead of sort for tibbles
+  relocate(`PI First`) %>%
+  relocate(`PI Last`)
+}
+usage_merge
+```
+
+# Save the results
+
+The CSV file will be saved in the same folder as the data.
+The date range will be included in the filename.
+
+``` {r save}
+daterange <- substring(usagefile, 0, 17)
+outputFile = paste(daterange, "usage_totals.csv") 
+
+write_csv(usage_merge,file.path(datapath, outputFile))
+```

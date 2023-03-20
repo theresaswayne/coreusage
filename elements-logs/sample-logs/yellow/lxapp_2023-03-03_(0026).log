@@ -1,0 +1,215 @@
+2023-03-03 20:37:23.815 *nis* Log session started.
+2023-03-03 20:37:23.815 *nis* 0d00 RDTSC instruction NOT present.
+2023-03-03 20:37:23.899 *nis* 0d00 UpdateDDBObjectives() : Start.
+2023-03-03 20:37:23.899 *nis* 0d00 UpdateDDBObjectives() : End(2).
+2023-03-03 20:37:23.921 *nis* 0d00 WinMain() - Phase #00 (application start) - 20:37:23 - 274.62
+2023-03-03 20:37:24.107 *nis* 0d00 Qt Warning: Attribute Qt::AA_ShareOpenGLContexts must be set before QCoreApplication is created.
+2023-03-03 20:37:24.108 *nis* 0d00 ParseCommandLine() : C:\Program Files\NIS-Elements\nis_ar.exe -f H:\FangLi_Confocal\20230303_WDPM_GSK_ACATi_Filipin_60X\LipaTg1_GSK_ACATi_1_005.nd2
+2023-03-03 20:37:24.108 *nis* 0d00 CLxSchedulerSupport::GetRegistryValueString read SocketName: 
+2023-03-03 20:37:24.108 *nis* 0d00 ENTERING 'CLxRTTI::loadCatalog'
+2023-03-03 20:37:24.110 *nis* 0d00 LEAVING  'CLxRTTI::loadCatalog' 2.0ms spent inside
+2023-03-03 20:37:24.110 *nis* 0d00 ENTERING 'CLxRTTI::updateCatalog'
+2023-03-03 20:37:24.211 *nis* 0d00 ENTERING 'CLxRTTI::saveCatalog'
+2023-03-03 20:37:24.211 *nis* 0d00 Saving RTTI cache
+2023-03-03 20:37:24.217 *nis* 0d00 LEAVING  'CLxRTTI::saveCatalog' 6.0ms spent inside
+2023-03-03 20:37:24.217 *nis* 0d00 LEAVING  'CLxRTTI::updateCatalog' 107.0ms spent inside
+2023-03-03 20:37:24.219 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_serializer_xml.dll") : OK
+2023-03-03 20:37:24.220 *nis* 0d00 IPCServer: Main thread awaiting client connection on \\.\pipe\NIS_ELEMENTS_ARE_RUNNING
+2023-03-03 20:37:24.222 *nis* 0d00 BIOS release date: 02/02/2022
+2023-03-03 20:37:24.222 *nis* 0d00 BIOS version: P61 v02.78
+2023-03-03 20:37:24.222 *nis* 0d00 System Manufacturer: HP
+2023-03-03 20:37:24.222 *nis* 0d00 System Product Name: HP Z4 G4 Workstation
+2023-03-03 20:37:24.222 *nis* 0d00 Operating System Name: Windows 10 Pro for Workstations
+2023-03-03 20:37:24.223 *nis* 0d00 Operating System Version: 10.0.19041.2364
+2023-03-03 20:37:24.223 *nis* 0d00 Cstates disable: TRUE
+2023-03-03 20:37:24.223 *nis* 3d04 Qt Warning: QObject::startTimer: Timers can only be used with threads started with QThread
+2023-03-03 20:37:24.224 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_docuset.dll") : OK
+2023-03-03 20:37:24.234 *nis* 0d00 GetSid succeded, user: Confocal, SID: S-1-5-21-156716595-2731499287-1200104426-1001
+2023-03-03 20:37:24.240 *nis* 0d00 Windows user: Confocal
+2023-03-03 20:37:24.249 *nis* 0d00 SearchAndLoadVendorModules: Application path: C:\Program Files\NIS-Elements\nis_ni?_*.dll
+2023-03-03 20:37:24.249 *nis* 0d00 VendorModuleAdd: nis_nii_assay_livedead.dll
+2023-03-03 20:37:24.468 *nis* 0d00 VendorModuleAdd: nis_nii_assay_NiiFilePart_TaskAcquireByName_Task.dll
+2023-03-03 20:37:24.472 *nis* 0d00 VendorModulesGeneralPlugin: Initializing plugin GeneralPlugin for version 5.3005 b1559
+2023-03-03 20:37:24.472 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_system.dll") : OK
+2023-03-03 20:37:24.474 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_serializer_reg.dll") : OK
+2023-03-03 20:37:24.474 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_support_gpu.dll") : OK
+2023-03-03 20:37:24.737 *nis* 0d00 Qt Debug: CL PERFORMANCE: device (Quadro RTX 5000), SP (3.4), DP (133.6)
+2023-03-03 20:37:24.753 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_filters_v2.dll") : OK
+2023-03-03 20:37:24.772 *nis* 0d00 CExternalGameDeviceManager::RegisterPluginDeviceType, joystick registered for plugin: Filters - joystick
+2023-03-03 20:37:24.772 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleFilters2") : OK
+2023-03-03 20:37:24.773 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_layers.dll") : OK
+2023-03-03 20:37:24.774 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleLayers") : OK
+2023-03-03 20:37:24.775 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_Observation.dll") : OK
+2023-03-03 20:37:24.775 *nis* 0d00 CLxModuleObservation::CLxModuleObservation
+2023-03-03 20:37:24.775 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleObservation") : OK
+2023-03-03 20:37:24.778 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_grainsize.dll") : OK
+2023-03-03 20:37:24.779 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleGrainSize") : OK
+2023-03-03 20:37:24.780 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_sim.dll") : OK
+2023-03-03 20:37:24.810 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleSim") : OK
+2023-03-03 20:37:24.812 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_storm_new.dll") : OK
+2023-03-03 20:37:24.812 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleStormNew") : OK
+2023-03-03 20:37:24.814 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_fret.dll") : OK
+2023-03-03 20:37:24.814 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleFRET") : OK
+2023-03-03 20:37:24.815 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_welding.dll") : OK
+2023-03-03 20:37:24.816 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleWelding") : OK
+2023-03-03 20:37:24.817 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_01.dll") : OK
+2023-03-03 20:37:24.817 *nis* 0d00 CLxPluginManager::LoadModules("CLxModule01") : OK
+2023-03-03 20:37:24.819 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_alveole_leonardo.dll") : OK
+2023-03-03 20:37:24.819 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAlveoleLeonardo") : OK
+2023-03-03 20:37:24.820 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_cellproliferation.dll") : OK
+2023-03-03 20:37:24.820 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayCellProliferation") : OK
+2023-03-03 20:37:24.823 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga.dll") : OK
+2023-03-03 20:37:24.824 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayGa") : OK
+2023-03-03 20:37:24.829 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga3.dll") : OK
+2023-03-03 20:37:24.831 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayGa3") : OK
+2023-03-03 20:37:24.834 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_ga_rgb.dll") : OK
+2023-03-03 20:37:24.835 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayGaRgb") : OK
+2023-03-03 20:37:24.836 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_motilitytracking.dll") : OK
+2023-03-03 20:37:24.836 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayMotilityTracking") : OK
+2023-03-03 20:37:24.838 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_oc.dll") : OK
+2023-03-03 20:37:24.838 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayOc") : OK
+2023-03-03 20:37:24.839 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_outproc.dll") : OK
+2023-03-03 20:37:24.840 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayOutProc") : OK
+2023-03-03 20:37:24.841 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_qintensity.dll") : OK
+2023-03-03 20:37:24.841 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayQIntensity") : OK
+2023-03-03 20:37:24.843 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_spt.dll") : OK
+2023-03-03 20:37:24.843 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssaySingleParticleTracking") : OK
+2023-03-03 20:37:24.845 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_assay_woundhealing.dll") : OK
+2023-03-03 20:37:24.845 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleAssayWoundHealing") : OK
+2023-03-03 20:37:24.846 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_castiron.dll") : OK
+2023-03-03 20:37:24.847 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleCastIron") : OK
+2023-03-03 20:37:24.848 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_optogenetics.dll") : OK
+2023-03-03 20:37:24.848 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleOptogenetics") : OK
+2023-03-03 20:37:24.850 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_concrete.dll") : OK
+2023-03-03 20:37:24.850 *nis* 0d00 CExternalGameDeviceManager::RegisterPluginDeviceType, joystick registered for plugin: Concrete - joystick
+2023-03-03 20:37:24.850 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleConcrete") : OK
+2023-03-03 20:37:24.864 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_confocal_new.dll") : OK
+2023-03-03 20:37:24.868 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleConfocalNew") : OK
+2023-03-03 20:37:24.870 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_edf.dll") : OK
+2023-03-03 20:37:24.870 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleEDF") : OK
+2023-03-03 20:37:24.872 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_denoise.dll") : OK
+2023-03-03 20:37:24.873 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleDenoise") : OK
+2023-03-03 20:37:24.874 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_report.dll") : OK
+2023-03-03 20:37:24.874 *nis* 0d00 CLxPluginManager::LoadModules("CLxPluginReport") : OK
+2023-03-03 20:37:24.876 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_deconv.dll") : OK
+2023-03-03 20:37:24.877 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleDeconv") : OK
+2023-03-03 20:37:24.880 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_deeplearning.dll") : OK
+2023-03-03 20:37:24.880 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleDeepLearning") : OK
+2023-03-03 20:37:24.882 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_plugin_LiveSR.dll") : OK
+2023-03-03 20:37:24.882 *nis* 0d00 CLxPluginManager::LoadModules("CLxModuleLiveSR") : OK
+2023-03-03 20:37:24.939 *nis* 0d00 License ID 2CC54E41 is used.
+2023-03-03 20:37:25.125 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleFilters2' not allowed by license.
+2023-03-03 20:37:25.127 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleLayers' not allowed by license.
+2023-03-03 20:37:25.129 *nis* 0d00 CLxModuleObservation::~CLxModuleObservation
+2023-03-03 20:37:25.129 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleObservation' not allowed by license.
+2023-03-03 20:37:25.131 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleGrainSize' not allowed by license.
+2023-03-03 20:37:25.134 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleFRET' not allowed by license.
+2023-03-03 20:37:25.136 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleWelding' not allowed by license.
+2023-03-03 20:37:25.141 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleAssayGaRgb' not allowed by license.
+2023-03-03 20:37:25.146 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleAssaySingleParticleTracking' not allowed by license.
+2023-03-03 20:37:25.149 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleCastIron' not allowed by license.
+2023-03-03 20:37:25.150 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleOptogenetics' not allowed by license.
+2023-03-03 20:37:25.152 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleConcrete' not allowed by license.
+2023-03-03 20:37:25.155 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleEDF' not allowed by license.
+2023-03-03 20:37:25.160 *nis* 0d00 CLxPluginManager::LoadModules() - module 'CLxModuleLiveSR' not allowed by license.
+2023-03-03 20:37:25.162 *nis* 0d00 CLxLocale::SetLangID(1033) : English
+2023-03-03 20:37:25.282 *nis* 0d00 SetLuciaVersion() : NIS-Elements AR; 5.30.05 (Build 1559) 64 bit
+2023-03-03 20:37:25.285 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_reportobjects.dll") : OK
+2023-03-03 20:37:25.288 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\g5_metalo_support.dll") : OK
+2023-03-03 20:37:25.429 *nis* 0d00 Font Zoom: 1.00
+2023-03-03 20:37:25.430 *nis* 0d00 Font Zoom: 1.00
+2023-03-03 20:37:25.456 *nis* 0d00 Init color scheme: 2; Flat: 1
+2023-03-03 20:37:25.493 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformatmanager.dll") : OK
+2023-03-03 20:37:25.496 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_tif.dll") : OK
+2023-03-03 20:37:25.496 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatLSM") : OK
+2023-03-03 20:37:25.496 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatOMETIF") : Failed GetID(...)
+2023-03-03 20:37:25.498 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_nd2.dll") : OK
+2023-03-03 20:37:25.498 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatND2") : OK
+2023-03-03 20:37:25.503 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ndp.dll") : OK
+2023-03-03 20:37:25.503 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatNDP") : OK
+2023-03-03 20:37:25.504 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_nef.dll") : OK
+2023-03-03 20:37:25.540 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatNEF") : OK
+2023-03-03 20:37:25.540 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imagefilecontainer.dll") : OK
+2023-03-03 20:37:25.541 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatContainer") : Failed GetID(...)
+2023-03-03 20:37:25.542 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_avi.dll") : OK
+2023-03-03 20:37:25.542 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatAVI") : OK
+2023-03-03 20:37:25.545 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_mov.dll") : OK
+2023-03-03 20:37:25.545 *nis* 0d00 WRAP:CLxWin3264Wrap::Connect - trying to connect ...
+2023-03-03 20:37:25.703 *nis* 0d00 WRAP:CLxWin3264Wrap::Connect - successfully connected
+2023-03-03 20:37:25.724 *nis* 0d00 WRAP:CLxWin3264Wrap::Disconnect - successfully disconnected
+2023-03-03 20:37:25.724 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatMov") : Failed GetID(...)
+2023-03-03 20:37:25.730 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_mp4.dll") : OK
+2023-03-03 20:37:25.731 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatMP4") : OK
+2023-03-03 20:37:25.732 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_lim.dll") : OK
+2023-03-03 20:37:25.732 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatLIM") : OK
+2023-03-03 20:37:25.736 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_jp2.dll") : OK
+2023-03-03 20:37:25.737 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatND") : OK
+2023-03-03 20:37:25.737 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJP2") : OK
+2023-03-03 20:37:25.737 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatTIF") : OK
+2023-03-03 20:37:25.743 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ometiff.dll") : OK
+2023-03-03 20:37:25.743 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatOMETIFF") : OK
+2023-03-03 20:37:25.759 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_json.dll") : OK
+2023-03-03 20:37:25.759 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJson") : OK
+2023-03-03 20:37:25.760 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_jpg2.dll") : OK
+2023-03-03 20:37:25.760 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatJPG") : OK
+2023-03-03 20:37:25.769 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_lead.dll") : OK
+2023-03-03 20:37:25.769 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatGIF") : OK
+2023-03-03 20:37:25.769 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatBMP") : OK
+2023-03-03 20:37:25.770 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_w32_imageformat_PNG.dll") : OK
+2023-03-03 20:37:25.771 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatPNG") : OK
+2023-03-03 20:37:25.771 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatPSD") : OK
+2023-03-03 20:37:25.772 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_ics.dll") : OK
+2023-03-03 20:37:25.772 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatICS") : OK
+2023-03-03 20:37:25.773 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_imageformat_clipboard.dll") : OK
+2023-03-03 20:37:25.773 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatClipboard") : OK
+2023-03-03 20:37:25.774 *nis* 0d00 CLxImageFormatManagerImpl::RegisterImageFormat("CLxImageFormatDIB") : OK
+2023-03-03 20:37:25.774 *nis* 0d00 Startup message : Checking user rights...
+2023-03-03 20:37:25.776 *nis* 0d00 WinMain() - Phase #01 (before SelectGrabber()) - 20:37:25 - 1855.38
+2023-03-03 20:37:25.776 *nis* 0d00 Startup message : Restoring Database of Devices...
+2023-03-03 20:37:25.777 *nis* 0d00 Startup message : Initializing Device Database...
+2023-03-03 20:37:25.780 *nis* 0d00 Device Database connection opened: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-03 20:37:25.781 *nis* 0d00 Device Database version 46 checked successfully
+2023-03-03 20:37:25.782 *nis* 0d00 Current system User ID is 1
+2023-03-03 20:37:25.782 *nis* 0d00 Current system HW Config ID is 1
+2023-03-03 20:37:25.783 *nis* 0d00 Current system Lightpath ID is 3
+2023-03-03 20:37:25.796 *nis* 0d00 DeviceDBAppHelper::GetHWConfigCameraString(): End - success...
+2023-03-03 20:37:25.799 *nis* 0d00 Startup message : Selecting Setup and Hardware Configuration...
+2023-03-03 20:37:25.799 *nis* 1604 _DMv2_ CLxDeviceManagerv2::Init() - begin
+2023-03-03 20:37:25.799 *nis* 1604 _DMv2_ CLxDeviceManagerv2::Init() - #3
+2023-03-03 20:37:25.799 *nis* 1604 _DMv2_ CLxOpticalPathHWUnitsCatalog::LoadCatalog() - begin
+2023-03-03 20:37:25.799 *nis* 0d00 LX_LoadLibrary("C:\Program Files\NIS-Elements\v6_gnr_grabbermanager01.dll") : OK
+2023-03-03 20:37:25.801 *nis* 0d00 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverGeneral, C:\Program Files\NIS-Elements\v6_gnr_grabbermanager01.dll)
+2023-03-03 20:37:25.801 *nis* 0d00 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverA1New, C:\Program Files\NIS-Elements\g5_plugin_confocal_new.dll)
+2023-03-03 20:37:25.801 *nis* 0d00 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverAndor, C:\Program Files\NIS-Elements\v6_w32_grabber_andor.dll)
+2023-03-03 20:37:25.801 *nis* 0d00 CLxGrabberManager01: Driver version OK. (CLxGrabberDriverImgsrc, C:\Program Files\NIS-Elements\v6_w32_grabber_imagingsource.dll)
+2023-03-03 20:37:25.814 *nis* 0d00 CLxGrabberManager01::GrabberDriverBan("CLxGrabberDriverImgsrc")
+2023-03-03 20:37:25.815 *nis* 0d00 _DMv2_ CLxDeviceManagerv2::ShowSetupAndHWConfigSelectionDialog()
+2023-03-03 20:37:25.852 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): begin
+2023-03-03 20:37:25.852 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogModel(): Creating model - begin
+2023-03-03 20:37:25.852 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::Update(): begin
+2023-03-03 20:37:25.852 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::clear(): Resetting model - begin: row count = 0.
+2023-03-03 20:37:25.852 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::clear(): Resetting model - end: row count = 0.
+2023-03-03 20:37:25.854 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::Update(): End - success...
+2023-03-03 20:37:25.854 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogModel(): Creating model - end
+2023-03-03 20:37:25.854 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::CLxDeviceManagerv2_SetupSelectionDialogProperties(): Creating dialog properties.
+2023-03-03 20:37:25.854 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialog::SetContextProperty read NISShutdownSuccessful: 1
+2023-03-03 20:37:25.854 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogProperties::GetModel(): Model valid: 1
+2023-03-03 20:37:25.998 *nis* 0d00 Qt Debug: Gui Zoom Changed to: 1
+2023-03-03 20:37:25.002 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogProperties::GetModel(): Model valid: 1
+2023-03-03 20:37:26.224 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index - begin
+2023-03-03 20:37:26.224 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index to - 0
+2023-03-03 20:37:26.224 *nis* 0d00 Qt Debug: Current index: 0
+2023-03-03 20:37:26.224 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): Setting current index to - 1
+2023-03-03 20:37:26.227 *nis* 0d00 Qt Debug: Current index: 1
+2023-03-03 20:37:26.227 *nis* 0d00 _DMv2_ CLxDeviceManagerv2_SetupSelectionDialogModel::SetupUi(): SetupUi - end
+2023-03-03 20:37:27.469 *nis* 1604 _DMv2_ CLxOpticalPathHWUnitsCatalog::LoadCatalog() - end
+2023-03-03 20:37:27.469 *nis* 1604 _DMv2_ CLxDeviceManagerv2::Init() - end
+2023-03-03 20:37:27.864 *nis* 0d00 Selected hardware configuration with GUID = {68e219b6-b601-4e2f-8463-37b6af786e9e} (Hardware configuration name = A1 - A1, Setup name = Nikon Ti
+2023-03-03 20:37:27.885 *nis* 0d00 Qt Debug: TensorRt::NetworkManager::freeNetworks
+2023-03-03 20:37:27.924 *nis* 0d00 Device Database connection closed: C:\ProgramData\Laboratory Imaging\Platform\DeviceDatabase_5_30.dat
+2023-03-03 20:37:27.925 *nis* 0d00 Qt Debug: MxNet::NetworkManager::freeNetworks
+2023-03-03 20:37:27.925 *nis* 0d00 App modules logout start
+2023-03-03 20:37:27.927 *nis* 0d00 App modules logout finish
+2023-03-03 20:37:27.927 *nis* 0d00 Application result: FAILED - SETUP AND HW CONFIGURATION SELECTION USER
+2023-03-03 20:37:27.928 *nis* 0d00 Qt Warning: QObject::killTimer: Timers cannot be stopped from another thread
+2023-03-03 20:37:27.933 *nis* 0d00 WRAP:CLxWin3264Wrap::Disconnect - successfully disconnected

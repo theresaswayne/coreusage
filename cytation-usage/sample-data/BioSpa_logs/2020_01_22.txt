@@ -1,0 +1,38 @@
+32	Wed 00:00:56	Sys:Chart moved to the second day on the schedule during gap in processing.
+33	Wed 00:30:25	Sys:Plate 1 has begun reading/imaging number: 5; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+34	Wed 00:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+35	Wed 00:32:32	Sys:Plate 1 has completed reading/imaging number: 5.
+36	Wed 02:30:24	Sys:Plate 1 has begun reading/imaging number: 6; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+37	Wed 02:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+38	Wed 02:32:31	Sys:Plate 1 has completed reading/imaging number: 6.
+39	Wed 04:30:25	Sys:Plate 1 has begun reading/imaging number: 7; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+40	Wed 04:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+41	Wed 04:32:31	Sys:Plate 1 has completed reading/imaging number: 7.
+42	Wed 06:30:25	Sys:Plate 1 has begun reading/imaging number: 8; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+43	Wed 06:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+44	Wed 06:32:32	Sys:Plate 1 has completed reading/imaging number: 8.
+45	Wed 08:30:25	Sys:Plate 1 has begun reading/imaging number: 9; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+46	Wed 08:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+47	Wed 08:32:32	Sys:Plate 1 has completed reading/imaging number: 9.
+48	Wed 10:30:25	Sys:Plate 1 has begun reading/imaging number: 10; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+49	Wed 10:30:35	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+50	Wed 10:32:32	Sys:Plate 1 has completed reading/imaging number: 10.
+51	Wed 12:30:25	Sys:Plate 1 has begun reading/imaging number: 11; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+52	Wed 12:30:35	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+53	Wed 12:32:32	Sys:Plate 1 has completed reading/imaging number: 11.
+54	Wed 14:07:30	Sys:The water pan door was closed.
+55	Wed 14:30:24	Sys:Plate 1 has begun reading/imaging number: 12; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+56	Wed 14:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+57	Wed 14:32:31	Sys:Plate 1 has completed reading/imaging number: 12.
+58	Wed 16:30:25	Sys:Plate 1 has begun reading/imaging number: 13; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+59	Wed 16:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+60	Wed 16:32:32	Sys:Plate 1 has completed reading/imaging number: 13.
+61	Wed 18:30:25	Sys:Plate 1 has begun reading/imaging number: 14; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+62	Wed 18:30:35	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+63	Wed 18:32:33	Sys:Plate 1 has completed reading/imaging number: 14.
+64	Wed 20:30:24	Sys:Plate 1 has begun reading/imaging number: 15; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+65	Wed 20:30:34	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+66	Wed 20:32:32	Sys:Plate 1 has completed reading/imaging number: 15.
+67	Wed 22:30:25	Sys:Plate 1 has begun reading/imaging number: 16; Protocol: Sandra_96wGreinerFlatBioSpa_cell death_PI.prt
+68	Wed 22:30:35	Sys:Data available for BioSpa plate 1 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2019-10-02\Sandra_96wGreinerFlatBioSpa_celldeath_PI_21-Jan-2020 16-26-52.xpt
+69	Wed 22:32:32	Sys:Plate 1 has completed reading/imaging number: 16.

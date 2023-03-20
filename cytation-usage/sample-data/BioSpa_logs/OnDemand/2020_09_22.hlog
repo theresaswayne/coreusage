@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSessionEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SessionEvent>
+    <EntryIndex>1</EntryIndex>
+    <DateTime>2020-09-22T16:25:28.3946557-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Reader/Imager taken off-line</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>2</EntryIndex>
+    <DateTime>2020-09-22T16:35:09.2789169-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began new session with plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>3</EntryIndex>
+    <DateTime>2020-09-22T16:35:23.663391-04:00</DateTime>
+    <Type>Warn:</Type>
+    <Text>Processing began with one or more environmental data parameters out of range of its requested value.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>4</EntryIndex>
+    <DateTime>2020-09-22T16:35:24.9130697-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5's ID: none</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>5</EntryIndex>
+    <DateTime>2020-09-22T16:35:24.9130697-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Optimized scheduling used for processing.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>6</EntryIndex>
+    <DateTime>2020-09-22T16:35:25.2099011-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Created plate 5's Gen5 experiment: D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-35-25.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>7</EntryIndex>
+    <DateTime>2020-09-22T16:35:25.2567441-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Completed plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>8</EntryIndex>
+    <DateTime>2020-09-22T16:35:25.3036176-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Processing started. </Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>9</EntryIndex>
+    <DateTime>2020-09-22T16:38:58.9571061-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 1; Protocol: Sandra_6well_cell death.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>10</EntryIndex>
+    <DateTime>2020-09-22T16:39:12.0325834-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-35-25.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>11</EntryIndex>
+    <DateTime>2020-09-22T16:47:19.0428205-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began plate removal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>12</EntryIndex>
+    <DateTime>2020-09-22T16:47:38.4293078-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 1.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>13</EntryIndex>
+    <DateTime>2020-09-22T16:48:49.1005138-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Reader/Imager taken off-line</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>14</EntryIndex>
+    <DateTime>2020-09-22T16:50:19.2312846-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Reader/Imager taken off-line</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>15</EntryIndex>
+    <DateTime>2020-09-22T16:53:09.28912-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Reader/Imager taken off-line</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>16</EntryIndex>
+    <DateTime>2020-09-22T16:59:08.0431535-04:00</DateTime>
+    <Type>User:</Type>
+    <Text>Began new session with plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>17</EntryIndex>
+    <DateTime>2020-09-22T16:59:09.1209952-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5's ID: none</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>18</EntryIndex>
+    <DateTime>2020-09-22T16:59:09.1209952-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Optimized scheduling used for processing.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>19</EntryIndex>
+    <DateTime>2020-09-22T16:59:09.4178102-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Created plate 5's Gen5 experiment: D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>20</EntryIndex>
+    <DateTime>2020-09-22T16:59:09.4490437-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Completed plate submittal process for plate: 5.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>21</EntryIndex>
+    <DateTime>2020-09-22T16:59:09.4959044-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Processing started. </Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>22</EntryIndex>
+    <DateTime>2020-09-22T17:02:43.1339957-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 1; Protocol: Sandra_6well_cell death.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>23</EntryIndex>
+    <DateTime>2020-09-22T17:02:55.9747605-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>24</EntryIndex>
+    <DateTime>2020-09-22T17:08:37.4738452-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 1.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>25</EntryIndex>
+    <DateTime>2020-09-22T19:02:42.7424253-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 2; Protocol: Sandra_6well_cell death.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>26</EntryIndex>
+    <DateTime>2020-09-22T19:03:03.1747907-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>27</EntryIndex>
+    <DateTime>2020-09-22T19:08:40.4402568-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 2.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>28</EntryIndex>
+    <DateTime>2020-09-22T21:02:42.780147-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 3; Protocol: Sandra_6well_cell death.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>29</EntryIndex>
+    <DateTime>2020-09-22T21:03:03.5721278-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>30</EntryIndex>
+    <DateTime>2020-09-22T21:08:39.1967774-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 3.</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>31</EntryIndex>
+    <DateTime>2020-09-22T23:02:42.564329-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has begun reading/imaging number: 4; Protocol: Sandra_6well_cell death.prt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>32</EntryIndex>
+    <DateTime>2020-09-22T23:03:02.8404432-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Data available for BioSpa plate 5 (plate ID: none) to Gen5's Plate 1 in experiment D:\Violet BioSpa Users\Pon lab\Sandra\2020-09-15\Sandra_6well_celldeath_22-Sep-2020 16-59-09.xpt</Text>
+  </SessionEvent>
+  <SessionEvent>
+    <EntryIndex>33</EntryIndex>
+    <DateTime>2020-09-22T23:08:42.5581454-04:00</DateTime>
+    <Type>Sys:</Type>
+    <Text>Plate 5 has completed reading/imaging number: 4.</Text>
+  </SessionEvent>
+</ArrayOfSessionEvent>
