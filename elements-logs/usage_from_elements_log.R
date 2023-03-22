@@ -14,7 +14,7 @@ library(tidyverse)
 
 # ---- Prompt for a log file ----
 # no message will be displayed
-logfile <- file.choose() 
+logfile <- file.choose()
 
 # Read the data from the file into 1 column called Log
 # Pretend the file is tab-delimited to keep from dividing the lines
