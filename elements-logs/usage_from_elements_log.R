@@ -45,10 +45,7 @@ testtime <- as.numeric(difftime(logtable[[2,2]], logtable[[1,2]], units = "secs"
 # ---- Calculate elapsed time for entire log ----
 
 totalTime <- as.numeric(difftime(logtable$TimeParsed[nrow(logtable)],logtable$TimeParsed[1]), units = "mins")
-print(paste('Total time elapsed was',
-            totalTime,
-            'minutes',
-            sep = ' '))
+
 
 # ---- Find rows where interesting things happened ----
 
@@ -59,20 +56,31 @@ exptTimes <- filter(logtable, grepl("File Name :", Log))
 # The file path appears at the end of the line after a set number of characters (timestamp, and other info)
 exptTimes <- mutate(exptTimes, Name = substring(Log, 54,))
 
-
 #saveTimes <- filter(logtable, grepl("ImageSaveAs", Log))
 
 # print(paste('There were',
 #             nrow(saveTimes),
 #             'ImageSaveAs events in the log.',
 #             sep = ' '))
+
+
+# ---- Print or save results ----
+
+# Print infomation to the console
+print(paste('Total time elapsed was',
+            totalTime,
+            'minutes',
+            sep = ' '))
+
 print(paste('There were',
             nrow(exptTimes),
             'ExperimentAcquisition events in the log.',
             sep = ' '))
-# ---- Print or save results ----
 
-# sample code for saviing
+# time and path for all saved files
+print(exptTimes[,3:4])
+
+# sample code for saving
 # logName <- basename(logfile) # name of the file without higher levels
 # parentDir <- dirname(logfile) # parent of the logfile
 # outputFile = paste(Sys.Date(), logName, "_total.csv") # spaces will be inserted
