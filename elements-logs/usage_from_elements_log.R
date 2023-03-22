@@ -52,24 +52,25 @@ print(paste('Total time elapsed was',
 
 # ---- Find rows where interesting things happened ----
 
-saveTimes <- filter(logtable, grepl("save", Log))
-# note -- includes many events that are not saving files 
-# -- need to refine the search text 
 
+# ND Acquisitions
+# Every ND Acquisition with the filename specified creates an event with the text below
+exptTimes <- filter(logtable, grepl("File Name :", Log))
+# The file path appears at the end of the line after a set number of characters (timestamp, and other info)
+exptTimes <- mutate(exptTimes, Name = substring(Log, 54,))
+
+
+#saveTimes <- filter(logtable, grepl("ImageSaveAs", Log))
+
+# print(paste('There were',
+#             nrow(saveTimes),
+#             'ImageSaveAs events in the log.',
+#             sep = ' '))
 print(paste('There were',
-            nrow(saveTimes),
-            'events with Save in the log.',
+            nrow(exptTimes),
+            'ExperimentAcquisition events in the log.',
             sep = ' '))
 # ---- Print or save results ----
-print(paste('Total time elapsed was',
-            totalTime,
-            'minutes',
-            sep = ' '))
-
-print(paste('There were',
-            nrow(saveTimes),
-            'events with Save in the log.',
-            sep = ' '))
 
 # sample code for saviing
 # logName <- basename(logfile) # name of the file without higher levels
