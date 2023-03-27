@@ -4,9 +4,11 @@
 # To use:
 # 1. Run the script. When prompted, open a single NIS log file.
 # 2. Planned output: 
-#   Start, end, elapsed time of entire log; 
-#   Start, end, elapsed time of all idle times (above a certain minimum time) ; 
+#   Start, end, elapsed time of entire log
 #   List of Files saved with time and path name
+
+# future improvements: single image saving (ImageSaveAs), batch handling
+
 
 # ---- Setup ----
 library(readr)
@@ -66,7 +68,7 @@ exptTimes <- mutate(exptTimes, Name = substring(Log, 54,))
 
 # ---- Print or save results ----
 
-# Print infomation to the console
+# Print information to the console
 print(paste('Total time elapsed was',
             totalTime,
             'minutes',
