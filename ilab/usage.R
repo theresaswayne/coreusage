@@ -98,3 +98,5 @@ hrs_cc_summ <- mutate(hrs_cc_summ,
 
 #TODO: Add total hours as a row in the summary tables
 #TODO: Write summary as CSV (using source filename as a base name)
+
+# usage_by_category <- usage %>% group_by(`Service Type`) %>% summarise(Quantity=sum(Quantity))
