@@ -54,8 +54,11 @@ totalTime <- as.numeric(difftime(logtable$TimeParsed[nrow(logtable)],logtable$Ti
 
 # ND Acquisitions
 # Every ND Acquisition with the filename specified creates an event with the text below
-exptTimes <- filter(logtable, grepl("File Name :", Log))
-# The file path appears at the end of the line after a set number of characters (timestamp, and other info)
+exptTimes <- filter(logtable, grepl("File Name :|Destination :", Log))
+# The file path appears at the end of the line
+pathPattern <- "[A-Z]{1}:"
+pathStarts <- str_locate(exptTimes$Log, pathPattern)
+ 
 exptTimes <- mutate(exptTimes, Name = substring(Log, 54,))
 
 #saveTimes <- filter(logtable, grepl("ImageSaveAs", Log))
