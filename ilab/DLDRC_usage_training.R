@@ -4,7 +4,7 @@
 require(tidyverse)
 
 # obtain data
-df <- df_2425
+df <- df2526
 
 # useful: what are the different usage types in the table?
 usageTypes <- unique(df$`Usage Type`)
@@ -14,7 +14,7 @@ usageTypes
 # put more important params first
 df <- df %>% group_by( `Customer Lab`,`Customer Name`)
 
-# table of all trained users and total hours
+# table of all users trained and total hours
 training_summ <- df %>%
   filter(`Usage Type` == "Training") %>%
   summarise(Training_Hours = sum(Quantity))
@@ -29,7 +29,7 @@ assist_training_summ <- df %>%
   filter(`Usage Type` == "Assisted"|`Usage Type` == "Assisted Use"|`Usage Type` == "Training") %>%
   summarise(Assisted_Training_Hours = sum(Quantity))
 # set working directory and update file names before doing this
-write_csv(training_summ, "24-25 training summary.csv")
-write_csv(assist_summ, "24-25 assisted use summary.csv")
-write_csv(assist_training_summ, "24-25 assisted and training summary.csv")
+write_csv(training_summ, "25-26 training summary.csv")
+write_csv(assist_summ, "25-26 assisted use summary.csv")
+write_csv(assist_training_summ, "25-26 assisted and training summary.csv")
 
